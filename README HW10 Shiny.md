@@ -13,7 +13,7 @@
 `library(dyplr)`
 
 ### Read in dataset and process it
-`studalc <- read.csv("https://raw.githubusercontent.com/kwonjhk/StudentAlcohol/master/Data/studalc-por.csv") %>%
+`studalc <- read.csv("https://raw.githubusercontent.com/clementiaboo/bios-611-project/main/studalc.csv") %>%
   mutate(Gedu = factor(Gedu, 
     levels = c("None", "Primary", "Middle", "Secondary", "Higher"),
     labels = c("Minimal", "Minimal", "Middle", 
