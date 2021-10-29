@@ -1,0 +1,650 @@
+"school","sex","age","address","famsize","Pstatus","Mjob","Fjob","reason","guardian","traveltime","studytime","failures","schoolsup","famsup","paid","activities","nursery","higher","internet","romantic","famrel","freetime","goout","health","absences","G1","G2","G3","Gedu","Alc","G4","firstgen"
+"GP","F",18,"Urban","GT3","A","at_home","teacher","course","mother",2,2,0,1,0,0,0,1,1,0,0,"Good","Medium","High","Average",4,0,11,11,"Higher",0,1,0
+"GP","F",17,"Urban","GT3","T","at_home","other","course","father",1,2,0,0,1,0,0,0,1,1,0,"Excellent","Medium","Medium","Average",2,9,11,11,"Primary",0,1,1
+"GP","F",15,"Urban","LE3","T","at_home","other","other","mother",1,2,0,1,0,0,0,1,1,1,0,"Good","Medium","Low","Average",6,12,13,12,"Primary",1,1,1
+"GP","F",15,"Urban","GT3","T","health","services","home","mother",1,3,0,0,1,0,1,1,1,1,1,"Neutral","Low","Low","Very Good",0,14,14,14,"Higher",0,1,0
+"GP","F",16,"Urban","GT3","T","other","other","home","father",1,2,0,0,1,0,0,1,1,0,0,"Good","Medium","Low","Very Good",0,11,13,13,"Secondary",1,1,0
+"GP","M",16,"Urban","LE3","T","services","other","reputation","mother",1,2,0,0,1,0,1,1,1,1,0,"Excellent","High","Low","Very Good",6,12,12,13,"Higher",1,1,0
+"GP","M",16,"Urban","LE3","T","other","other","home","mother",1,2,0,0,0,0,0,1,1,1,0,"Good","High","High","Average",0,13,12,13,"Middle",0,0,1
+"GP","F",17,"Urban","GT3","A","other","teacher","home","mother",2,2,0,1,1,0,0,1,1,0,0,"Good","Very Low","High","Very Bad",2,10,13,13,"Higher",0,1,0
+"GP","M",15,"Urban","LE3","A","services","other","home","mother",1,2,0,0,1,0,0,1,1,1,0,"Good","Low","Low","Very Bad",0,15,16,17,"Secondary",0,1,0
+"GP","M",15,"Urban","GT3","T","other","other","home","mother",1,2,0,0,1,0,1,1,1,1,0,"Excellent","Very High","Very Low","Very Good",0,12,12,13,"Secondary",0,1,0
+"GP","F",15,"Urban","GT3","T","teacher","health","reputation","mother",1,2,0,0,1,0,0,1,1,1,0,"Neutral","Medium","Medium","Bad",2,14,14,14,"Higher",1,1,0
+"GP","F",15,"Urban","GT3","T","services","other","reputation","father",3,3,0,0,1,0,1,1,1,1,0,"Excellent","Low","Low","Good",0,10,12,13,"Primary",0,1,1
+"GP","M",15,"Urban","LE3","T","health","services","course","father",1,1,0,0,1,0,1,1,1,1,0,"Good","Medium","Medium","Very Good",0,12,13,12,"Higher",1,1,0
+"GP","M",15,"Urban","GT3","T","teacher","other","course","mother",2,2,0,0,1,0,0,1,1,1,0,"Excellent","High","Medium","Average",0,12,12,13,"Higher",1,1,0
+"GP","M",15,"Urban","GT3","A","other","other","home","other",1,3,0,0,1,0,0,1,1,1,1,"Good","Very High","Low","Average",0,14,14,15,"Middle",0,1,1
+"GP","F",16,"Urban","GT3","T","health","other","home","mother",1,1,0,0,1,0,0,1,1,1,0,"Good","High","High","Bad",6,17,17,17,"Higher",1,1,0
+"GP","F",16,"Urban","GT3","T","services","services","reputation","mother",1,3,0,0,1,0,1,1,1,1,0,"Neutral","Low","Medium","Bad",10,13,13,14,"Higher",1,1,0
+"GP","F",16,"Urban","GT3","T","other","other","reputation","mother",3,2,0,1,1,0,1,1,1,0,0,"Excellent","Medium","Low","Good",2,13,14,14,"Secondary",0,1,0
+"GP","M",17,"Urban","GT3","T","services","services","course","mother",1,1,3,0,1,1,1,1,1,1,0,"Excellent","Very High","Very High","Very Good",2,8,8,7,"Secondary",1,1,0
+"GP","M",16,"Urban","LE3","T","health","other","home","father",1,1,0,0,0,0,1,1,1,1,0,"Neutral","Very Low","Medium","Very Good",6,12,12,12,"Secondary",1,1,0
+"GP","M",15,"Urban","GT3","T","teacher","other","reputation","mother",1,2,0,0,0,0,0,1,1,1,0,"Good","High","Very Low","Very Bad",0,12,13,14,"Higher",0,1,0
+"GP","M",15,"Urban","GT3","T","health","health","other","father",1,1,0,0,1,1,0,1,1,1,0,"Excellent","High","Low","Very Good",0,11,12,12,"Higher",0,1,0
+"GP","M",16,"Urban","LE3","T","teacher","other","course","mother",1,2,0,0,0,0,1,1,1,1,0,"Good","Very High","Very Low","Very Good",0,12,13,14,"Higher",1,1,0
+"GP","M",16,"Urban","LE3","T","other","other","reputation","mother",2,2,0,0,1,0,1,1,1,1,0,"Excellent","High","High","Very Good",2,10,10,10,"Middle",1,1,1
+"GP","F",15,"Rural","GT3","T","services","health","course","mother",1,3,0,1,1,0,1,1,1,1,0,"Good","Medium","Low","Very Good",2,10,11,10,"Middle",0,1,0
+"GP","F",16,"Urban","GT3","T","services","services","home","mother",1,1,0,0,1,0,0,0,1,1,0,"Very Bad","Low","Low","Very Good",6,10,11,12,"Middle",1,1,1
+"GP","M",15,"Urban","GT3","T","other","other","home","mother",1,1,0,0,1,0,0,1,1,1,0,"Good","Low","Low","Very Good",8,11,12,12,"Middle",1,1,1
+"GP","M",15,"Urban","GT3","T","health","services","other","mother",1,1,0,0,0,0,0,1,1,1,0,"Bad","Low","High","Very Bad",0,11,11,11,"Higher",1,1,0
+"GP","M",16,"Urban","LE3","A","services","other","home","mother",1,2,0,1,1,1,1,1,1,1,0,"Excellent","Medium","Medium","Very Good",2,12,12,13,"Secondary",0,1,0
+"GP","M",16,"Urban","GT3","T","teacher","teacher","home","mother",1,2,0,0,1,1,1,1,1,1,1,"Good","High","Very High","Very Good",4,12,11,12,"Higher",1,0,0
+"GP","M",15,"Urban","GT3","T","health","services","home","mother",1,2,0,0,1,1,0,0,1,1,0,"Excellent","High","Low","Very Good",0,10,11,11,"Higher",1,1,0
+"GP","M",15,"Urban","GT3","T","services","services","reputation","mother",2,2,0,0,1,0,1,1,1,1,0,"Good","Medium","Very Low","Very Good",2,15,15,15,"Higher",0,1,0
+"GP","M",15,"Rural","GT3","T","teacher","at_home","course","mother",1,2,0,0,1,0,1,1,1,1,1,"Good","Very High","Low","Very Good",0,13,14,15,"Higher",0,1,0
+"GP","M",15,"Urban","LE3","T","other","other","course","mother",1,2,0,0,0,0,1,0,1,1,0,"Excellent","Medium","Low","Bad",0,13,12,12,"Secondary",0,0,0
+"GP","M",16,"Urban","GT3","T","other","other","home","mother",1,1,0,0,1,0,0,0,1,1,0,"Excellent","High","Medium","Very Good",4,12,12,12,"Secondary",0,1,0
+"GP","F",15,"Urban","GT3","T","other","other","other","father",2,1,0,0,1,0,1,1,1,0,0,"Neutral","Very High","Very Low","Very Good",4,11,11,11,"Secondary",0,1,0
+"GP","M",15,"Urban","LE3","T","teacher","services","home","mother",1,3,0,0,1,0,1,1,1,1,0,"Excellent","High","Medium","Good",0,14,14,14,"Higher",0,1,0
+"GP","M",16,"Rural","GT3","A","other","teacher","reputation","mother",2,3,0,0,1,0,1,1,1,1,1,"Bad","High","Medium","Very Good",4,13,13,13,"Higher",0,1,0
+"GP","F",15,"Rural","GT3","T","services","health","course","mother",1,3,0,1,1,0,1,1,1,1,0,"Good","Medium","Low","Very Good",2,11,12,12,"Secondary",0,1,0
+"GP","F",15,"Rural","GT3","T","at_home","other","reputation","mother",1,1,0,1,1,0,1,1,1,0,0,"Good","Medium","Very Low","Bad",8,14,13,12,"Middle",0,0,1
+"GP","F",16,"Urban","LE3","T","other","other","home","mother",2,2,0,0,1,0,1,0,1,1,1,"Neutral","Medium","Medium","Average",16,11,11,10,"Middle",1,1,1
+"GP","M",15,"Urban","LE3","T","teacher","other","home","other",1,1,0,0,1,0,0,0,1,1,1,"Excellent","High","Medium","Very Good",8,10,11,11,"Higher",1,1,0
+"GP","M",15,"Urban","GT3","T","services","teacher","course","father",1,2,0,0,1,0,1,1,1,1,0,"Good","Medium","Medium","Very Good",0,14,15,15,"Higher",0,1,0
+"GP","M",15,"Urban","GT3","T","services","services","course","father",1,1,0,1,1,0,0,1,1,1,0,"Excellent","High","Very Low","Very Bad",0,9,10,10,"Middle",0,1,1
+"GP","F",16,"Urban","LE3","T","other","at_home","course","father",2,2,1,1,0,0,1,1,1,1,0,"Good","Medium","Medium","Very Good",14,10,11,11,"Middle",1,1,1
+"GP","F",15,"Urban","LE3","A","other","other","course","mother",1,2,0,1,1,1,1,1,1,1,1,"Excellent","Low","Low","Very Good",4,10,11,11,"Higher",0,1,0
+"GP","F",16,"Urban","LE3","A","other","services","home","mother",1,2,0,0,1,0,0,1,1,1,0,"Bad","Medium","Very High","Average",6,13,12,13,"Secondary",1,0,0
+"GP","M",16,"Urban","GT3","T","health","services","reputation","mother",1,4,0,0,0,0,1,1,1,1,0,"Good","Low","Low","Bad",2,17,17,17,"Higher",0,1,0
+"GP","M",15,"Urban","GT3","T","teacher","other","home","mother",1,2,0,0,1,0,0,1,1,0,0,"Good","Medium","Medium","Very Good",4,11,12,13,"Higher",1,1,0
+"GP","F",15,"Urban","GT3","T","services","teacher","other","father",1,2,0,1,1,0,1,0,1,1,0,"Good","High","High","Average",2,13,12,12,"Higher",0,0,0
+"GP","F",16,"Urban","LE3","T","services","services","course","mother",3,2,0,0,1,0,0,1,1,1,0,"Good","Medium","Medium","Good",0,14,13,13,"Middle",1,0,1
+"GP","F",15,"Urban","LE3","T","health","other","other","mother",1,2,0,0,1,0,0,1,1,1,0,"Good","Medium","Medium","Very Good",0,16,14,16,"Higher",0,0,0
+"GP","M",15,"Urban","LE3","A","health","health","other","father",2,1,0,0,0,0,0,1,1,0,0,"Excellent","Very High","Very High","Very Good",4,10,9,9,"Middle",1,0,0
+"GP","F",15,"Urban","GT3","T","services","services","course","mother",1,1,0,1,1,0,0,1,1,1,0,"Neutral","Medium","High","Very Good",0,13,12,12,"Higher",1,0,0
+"GP","F",15,"Urban","LE3","A","other","other","other","mother",1,1,0,0,0,0,0,1,1,1,0,"Excellent","Medium","High","Very Bad",0,13,12,13,"Secondary",1,0,0
+"GP","F",16,"Urban","GT3","A","other","other","other","mother",1,2,0,0,0,0,1,1,1,1,1,"Excellent","Medium","High","Bad",2,12,13,12,"Middle",0,1,1
+"GP","F",15,"Urban","GT3","A","services","services","reputation","mother",1,2,0,0,1,0,1,1,1,1,0,"Good","Medium","Low","Very Bad",0,15,14,15,"Higher",0,0,0
+"GP","M",15,"Urban","GT3","T","teacher","health","reputation","mother",1,2,0,0,1,0,1,1,1,0,0,"Neutral","Low","Low","Very Good",8,15,15,16,"Higher",0,1,0
+"GP","M",15,"Urban","LE3","T","other","at_home","home","father",1,2,0,1,1,0,1,1,1,1,0,"Good","Medium","Low","Very Good",0,14,13,14,"Middle",0,0,1
+"GP","F",16,"Urban","GT3","T","services","other","course","mother",1,2,0,0,1,1,0,1,1,1,0,"Good","Low","Medium","Very Good",2,16,15,16,"Higher",0,0,0
+"GP","F",16,"Rural","GT3","T","health","teacher","other","mother",1,2,0,0,1,0,1,1,1,0,0,"Bad","High","High","Good",0,17,16,16,"Higher",1,0,0
+"GP","F",16,"Urban","GT3","T","services","services","course","father",4,1,0,1,1,0,1,0,1,1,1,"Excellent","Very High","Very High","Very Good",0,10,10,16,"Primary",1,1,1
+"GP","F",16,"Urban","LE3","T","other","services","reputation","father",1,2,0,1,0,0,1,1,1,1,0,"Good","High","Medium","Very Bad",0,13,13,10,"Middle",0,1,1
+"GP","F",16,"Urban","GT3","T","teacher","health","home","mother",1,3,0,1,1,0,1,1,1,1,0,"Neutral","High","High","Good",0,14,13,13,"Higher",1,0,0
+"GP","F",15,"Urban","LE3","T","services","services","reputation","father",1,2,0,1,0,0,1,1,1,1,1,"Good","High","High","Bad",0,13,12,12,"Secondary",1,0,0
+"GP","F",16,"Urban","LE3","T","teacher","services","course","mother",3,2,0,0,1,0,1,1,1,1,0,"Excellent","High","Medium","Very Bad",2,16,15,16,"Higher",1,0,0
+"GP","M",15,"Urban","GT3","A","other","services","reputation","mother",1,4,0,0,1,0,1,0,1,1,1,"Very Bad","Medium","Medium","Average",0,11,12,12,"Higher",1,1,0
+"GP","F",16,"Urban","GT3","T","services","other","course","mother",1,4,0,1,1,0,0,1,1,1,0,"Good","Medium","Medium","Very Good",0,10,9,10,"Secondary",1,0,0
+"GP","F",15,"Rural","LE3","T","health","services","reputation","mother",2,2,0,1,1,0,0,1,1,1,0,"Good","Very Low","Medium","Good",0,11,10,11,"Middle",1,0,1
+"GP","F",15,"Rural","LE3","T","other","other","reputation","father",2,4,0,0,1,0,0,0,1,1,0,"Good","High","Low","Average",6,15,15,15,"Primary",1,1,0
+"GP","M",16,"Urban","GT3","T","other","other","reputation","father",2,4,0,0,1,0,0,1,1,1,0,"Good","Medium","Low","Very Good",2,13,11,11,"Primary",0,0,0
+"GP","M",15,"Urban","GT3","T","other","other","course","mother",1,4,0,0,0,0,0,1,1,1,0,"Neutral","Medium","Medium","Average",0,11,9,10,"Higher",0,0,0
+"GP","F",15,"Rural","GT3","T","other","other","reputation","mother",1,2,0,1,1,0,0,0,1,1,1,"Neutral","Medium","High","Very Good",2,13,11,11,"Primary",1,0,1
+"GP","M",16,"Urban","GT3","T","other","other","reputation","mother",1,1,0,0,0,0,1,1,1,0,0,"Excellent","Medium","Low","Very Good",0,13,13,14,"Secondary",1,1,0
+"GP","F",16,"Urban","GT3","T","other","services","home","mother",1,2,0,1,1,0,1,1,1,1,0,"Good","Medium","Medium","Very Good",4,11,11,11,"Secondary",1,1,0
+"GP","M",15,"Urban","GT3","T","teacher","other","home","mother",1,2,0,0,1,0,1,1,1,1,0,"Good","Medium","Medium","Very Good",0,11,11,11,"Higher",1,1,0
+"GP","M",15,"Urban","GT3","T","teacher","other","course","mother",2,4,0,0,0,0,1,1,1,1,0,"Neutral","High","Medium","Very Bad",0,12,11,11,"Higher",0,0,0
+"GP","F",16,"Urban","GT3","T","other","other","reputation","mother",1,4,0,0,0,0,0,1,1,1,1,"Excellent","Low","Medium","Average",1,13,13,13,"Middle",1,1,1
+"GP","M",17,"Urban","GT3","T","other","other","home","mother",2,1,3,1,1,0,1,1,0,1,0,"Good","Very High","Very Low","Average",0,9,9,10,"Middle",0,1,0
+"GP","F",16,"Urban","GT3","T","at_home","other","course","mother",1,2,0,0,1,0,0,1,1,1,0,"Bad","High","Medium","Average",14,12,11,11,"Secondary",1,0,0
+"GP","M",15,"Urban","GT3","T","other","services","course","father",1,1,0,1,1,0,1,0,1,1,1,"Neutral","Low","Low","Average",0,11,11,12,"Secondary",1,1,0
+"GP","M",15,"Urban","GT3","T","other","other","home","mother",1,3,0,1,0,0,0,0,1,1,0,"Excellent","Medium","Low","Very Good",2,10,9,9,"Middle",1,0,0
+"GP","F",15,"Urban","LE3","T","services","other","reputation","mother",1,2,0,0,1,0,0,1,1,1,0,"Good","High","High","Very Good",4,12,11,11,"Secondary",0,0,0
+"GP","M",15,"Urban","LE3","T","services","services","home","mother",2,2,0,0,0,1,1,1,1,1,0,"Excellent","Medium","Medium","Good",2,13,12,13,"Middle",1,0,1
+"GP","F",15,"Urban","GT3","T","other","other","home","father",1,2,0,0,1,0,1,0,1,1,0,"Good","Medium","Low","Good",2,13,12,12,"Primary",1,0,1
+"GP","F",15,"Urban","GT3","T","services","services","reputation","father",2,2,0,0,0,0,0,1,1,1,1,"Good","High","High","Very Good",4,12,11,12,"Higher",1,0,0
+"GP","F",16,"Urban","LE3","T","at_home","other","course","mother",1,2,0,0,1,0,0,1,1,0,0,"Good","Medium","High","Bad",6,13,11,11,"Middle",1,0,1
+"GP","F",15,"Urban","GT3","T","other","other","reputation","mother",1,3,0,0,1,0,1,1,1,1,0,"Excellent","Medium","Medium","Very Bad",4,15,15,15,"Higher",1,1,0
+"GP","M",16,"Urban","GT3","T","services","other","reputation","father",2,2,0,0,0,0,1,0,1,1,0,"Good","High","Low","Average",6,12,10,11,"Middle",0,0,1
+"GP","M",16,"Urban","LE3","A","teacher","health","reputation","mother",1,2,0,0,1,0,0,1,1,0,0,"Good","Very Low","Medium","Very Good",6,9,9,10,"Higher",1,1,0
+"GP","F",16,"Urban","GT3","T","other","other","home","mother",1,3,0,0,1,0,0,1,1,1,1,"Good","Medium","Medium","Good",2,9,11,11,"Secondary",1,1,0
+"GP","F",15,"Urban","GT3","T","services","other","reputation","mother",1,1,0,0,0,0,1,1,1,1,0,"Good","Very High","Very High","Very Bad",6,14,13,13,"Higher",1,0,0
+"GP","F",16,"Urban","LE3","T","other","other","home","father",1,2,0,1,1,0,0,1,1,0,0,"Neutral","Medium","Medium","Bad",0,12,13,12,"Primary",1,1,0
+"GP","F",16,"Urban","GT3","T","teacher","services","home","mother",2,2,0,0,1,0,1,1,1,1,0,"Excellent","Medium","Medium","Very Bad",2,13,14,14,"Higher",0,1,0
+"GP","M",15,"Urban","LE3","T","services","health","reputation","mother",1,4,0,0,1,0,1,1,1,1,0,"Good","Medium","High","Good",2,11,12,12,"Middle",0,1,1
+"GP","F",15,"Rural","GT3","T","at_home","other","home","mother",2,4,0,1,1,1,1,1,1,1,0,"Neutral","Very Low","Low","Very Bad",4,13,13,13,"Primary",0,1,1
+"GP","M",16,"Rural","GT3","T","services","other","reputation","mother",2,1,0,1,1,1,1,0,1,1,0,"Neutral","Medium","Medium","Good",6,9,11,11,"Higher",0,1,0
+"GP","F",16,"Urban","GT3","T","other","other","course","mother",1,2,0,0,1,0,0,1,1,0,1,"Good","Medium","Very High","Very Good",0,13,12,12,"Middle",0,0,1
+"GP","F",16,"Urban","GT3","T","other","other","reputation","mother",1,1,0,0,0,0,1,0,1,1,0,"Excellent","Medium","High","Very Bad",4,12,13,13,"Higher",1,1,0
+"GP","F",16,"Urban","GT3","T","other","at_home","course","mother",1,3,0,1,1,0,0,1,1,1,0,"Excellent","Medium","Very High","Average",2,12,13,13,"Higher",0,1,0
+"GP","M",16,"Urban","GT3","T","services","services","other","mother",1,1,0,1,1,0,1,1,1,1,0,"Good","Very High","Very High","Good",12,9,9,8,"Higher",1,1,0
+"GP","M",16,"Urban","GT3","T","services","teacher","other","father",1,3,0,0,1,0,1,1,1,1,1,"Good","High","Medium","Good",0,16,16,16,"Higher",0,1,0
+"GP","M",15,"Urban","GT3","T","services","other","course","mother",1,1,0,0,1,1,1,0,1,1,0,"Excellent","Medium","Medium","Very Good",2,12,13,12,"Higher",0,1,0
+"GP","F",15,"Urban","GT3","T","services","other","home","mother",2,2,0,1,1,0,0,1,1,1,0,"Good","Medium","Very High","Bad",16,11,10,10,"Secondary",0,0,0
+"GP","M",15,"Urban","GT3","A","services","other","course","mother",1,2,0,0,1,0,1,1,1,1,0,"Excellent","High","High","Very Bad",0,16,16,16,"Secondary",0,1,0
+"GP","F",15,"Urban","GT3","A","other","health","reputation","father",1,4,0,1,0,0,0,1,1,0,0,"Good","Medium","Medium","Good",10,10,10,10,"Secondary",0,1,0
+"GP","F",15,"Urban","GT3","T","other","other","course","mother",1,4,0,1,1,0,0,1,1,1,0,"Excellent","Very Low","Low","Average",4,10,10,10,"Middle",0,1,1
+"GP","M",16,"Urban","GT3","T","services","other","home","father",1,3,0,0,1,0,1,1,1,1,0,"Excellent","Medium","Medium","Very Good",4,13,14,14,"Secondary",0,1,0
+"GP","M",15,"Rural","GT3","T","other","other","home","father",4,4,0,0,1,0,1,1,1,1,1,"Very Bad","Medium","Very High","Very Bad",8,12,10,11,"Higher",1,0,0
+"GP","F",16,"Urban","LE3","T","health","health","other","mother",1,3,0,0,1,0,1,1,1,1,1,"Excellent","High","Very High","Good",2,15,15,14,"Higher",0,1,0
+"GP","M",15,"Urban","LE3","A","teacher","teacher","course","mother",1,1,0,0,0,0,1,1,1,1,0,"Excellent","Very High","Medium","Good",4,13,14,14,"Higher",0,1,0
+"GP","F",16,"Rural","GT3","T","services","other","reputation","father",1,3,0,1,1,0,1,1,1,1,0,"Good","Very Low","Low","Bad",4,11,11,11,"Secondary",0,1,0
+"GP","F",16,"Urban","GT3","T","at_home","other","home","mother",1,2,1,1,0,0,1,1,1,1,0,"Neutral","Very Low","Low","Very Good",12,8,10,10,"Middle",0,1,1
+"GP","M",15,"Urban","LE3","T","teacher","other","course","mother",1,1,0,0,0,0,0,1,1,1,0,"Neutral","Very High","Low","Average",10,18,17,18,"Higher",0,0,0
+"GP","M",15,"Rural","GT3","T","health","services","reputation","mother",1,2,0,0,0,0,1,1,1,1,1,"Excellent","High","Low","Very Good",4,10,9,10,"Middle",0,0,1
+"GP","M",16,"Urban","GT3","T","teacher","teacher","course","father",1,2,0,0,1,0,1,1,1,1,0,"Excellent","High","High","Very Good",6,16,14,14,"Higher",1,0,0
+"GP","M",15,"Urban","GT3","T","other","teacher","reputation","father",2,2,0,0,1,0,1,1,1,0,0,"Good","High","Medium","Bad",4,16,15,16,"Higher",0,0,0
+"GP","M",16,"Urban","GT3","T","other","services","home","father",2,1,0,0,0,0,1,1,1,1,0,"Excellent","High","Low","Very Good",6,14,14,15,"Secondary",0,1,0
+"GP","M",17,"Rural","GT3","T","other","other","course","father",3,2,1,0,1,0,1,1,1,1,0,"Excellent","Low","High","Very Good",14,12,11,11,"Secondary",1,0,0
+"GP","M",15,"Urban","GT3","T","other","other","reputation","father",1,1,0,0,0,0,0,1,1,1,0,"Neutral","High","Medium","Good",2,14,13,14,"Higher",1,0,0
+"GP","F",15,"Urban","GT3","T","at_home","services","course","mother",1,2,0,0,0,0,0,0,1,1,0,"Neutral","Low","Medium","Very Bad",0,14,14,14,"Primary",1,1,1
+"GP","M",15,"Urban","GT3","T","services","services","home","father",1,4,0,0,1,0,1,1,1,1,0,"Excellent","Very High","High","Very Good",6,14,13,13,"Middle",1,0,1
+"GP","F",16,"Urban","LE3","T","other","health","course","father",2,2,0,0,1,0,1,1,1,1,1,"Good","Low","Low","Very Good",2,14,12,13,"Higher",1,0,0
+"GP","M",16,"Urban","GT3","T","health","other","course","mother",1,1,0,0,1,0,1,1,1,1,0,"Neutral","High","High","Very Good",4,12,13,13,"Higher",1,1,0
+"GP","F",16,"Urban","GT3","T","other","other","home","mother",1,2,0,0,0,0,0,1,1,1,1,"Excellent","High","High","Very Good",0,12,11,11,"Middle",0,0,1
+"GP","M",15,"Urban","GT3","T","services","services","home","father",1,1,0,1,0,0,0,1,1,1,0,"Excellent","Very High","Very High","Very Good",2,9,9,9,"Higher",1,1,0
+"GP","F",15,"Urban","LE3","A","other","other","home","mother",1,2,0,1,0,0,1,1,1,1,1,"Excellent","Medium","Low","Very Bad",0,10,11,11,"Secondary",0,1,0
+"GP","F",19,"Urban","GT3","T","at_home","other","course","other",1,2,2,0,1,0,0,0,0,0,0,"Neutral","High","Low","Very Good",0,9,10,11,"Primary",0,1,0
+"GP","M",16,"Rural","GT3","T","teacher","teacher","course","mother",1,1,0,0,0,0,1,1,1,1,0,"Neutral","Very High","Very High","Good",8,14,14,15,"Higher",1,1,0
+"GP","M",16,"Urban","GT3","T","other","other","course","mother",2,3,0,0,1,0,0,0,1,1,1,"Neutral","Low","Medium","Very Bad",4,13,12,13,"Middle",1,0,0
+"GP","F",15,"Rural","GT3","T","services","teacher","course","father",2,3,0,0,1,0,0,1,1,1,1,"Good","Low","Low","Very Good",0,10,11,12,"Higher",1,1,0
+"GP","F",18,"Urban","GT3","T","services","other","reputation","mother",1,2,3,0,1,0,1,1,0,1,1,"Excellent","High","Very High","Very Good",10,10,9,8,"Middle",1,0,0
+"GP","F",17,"Urban","LE3","A","other","other","course","mother",3,1,0,0,1,0,0,1,1,1,0,"Neutral","Low","Low","Very Good",8,11,10,11,"Middle",1,0,1
+"GP","F",15,"Urban","GT3","T","at_home","other","course","mother",3,1,0,0,1,0,1,0,1,1,1,"Good","Medium","Medium","Good",6,11,12,13,"Primary",1,1,1
+"GP","F",17,"Urban","LE3","T","other","other","course","father",1,1,0,0,1,0,0,1,1,1,1,"Neutral","High","High","Very Good",2,13,12,12,"Middle",1,0,1
+"GP","F",16,"Urban","GT3","A","services","other","course","father",1,1,0,0,0,0,0,1,1,1,0,"Neutral","Low","Very Low","Very Good",12,15,13,14,"Higher",1,0,0
+"GP","M",16,"Urban","GT3","T","at_home","other","course","mother",4,1,0,0,0,0,0,1,1,0,0,"Neutral","Low","Very Low","Bad",4,9,9,11,"Middle",0,1,1
+"GP","F",16,"Urban","GT3","A","other","other","home","mother",1,1,1,0,0,0,0,1,1,0,0,"Excellent","Medium","High","Very Good",12,13,11,11,"Middle",0,0,1
+"GP","M",15,"Rural","GT3","T","at_home","teacher","course","mother",4,2,0,0,1,0,0,1,1,0,1,"Excellent","Medium","Medium","Very Good",2,12,11,11,"Secondary",0,0,0
+"GP","F",15,"Urban","GT3","T","services","at_home","course","mother",1,3,0,0,1,0,1,1,1,1,1,"Good","Medium","Medium","Very Good",4,13,14,15,"Higher",0,1,0
+"GP","M",17,"Rural","GT3","T","at_home","other","course","mother",3,2,0,0,0,0,0,1,1,0,0,"Excellent","High","Very High","Very Good",2,10,9,10,"Secondary",1,0,0
+"GP","F",16,"Rural","GT3","T","at_home","other","course","mother",4,2,0,0,1,0,0,1,1,0,0,"Excellent","Very Low","Medium","Average",0,14,13,13,"Primary",0,0,1
+"GP","M",18,"Urban","LE3","T","services","services","course","mother",2,1,0,0,0,0,1,1,1,1,1,"Neutral","Medium","High","Good",2,11,11,12,"Secondary",1,1,0
+"GP","F",18,"Urban","GT3","A","other","services","course","other",1,3,0,0,1,0,1,0,1,1,1,"Good","Medium","Medium","Very Good",10,12,11,11,"Secondary",1,0,0
+"GP","F",16,"Rural","GT3","T","other","services","reputation","mother",2,1,0,0,1,0,1,1,1,0,1,"Neutral","Medium","Medium","Very Bad",8,12,11,11,"Primary",1,0,1
+"GP","F",16,"Urban","GT3","A","other","other","course","other",2,1,0,0,1,0,1,0,1,1,1,"Good","Medium","Low","Very Good",4,9,9,10,"Secondary",0,1,0
+"GP","M",16,"Urban","LE3","T","services","other","course","mother",1,2,2,0,0,0,0,1,1,0,1,"Good","High","High","Very Good",0,10,10,10,"Primary",1,1,1
+"GP","F",15,"Urban","GT3","T","teacher","teacher","course","mother",2,1,0,0,0,0,1,1,1,1,0,"Good","Medium","Low","Very Good",6,13,14,14,"Higher",0,1,0
+"GP","F",15,"Rural","GT3","T","other","other","course","mother",3,1,1,0,0,0,1,1,1,1,1,"Excellent","Very High","Very High","Very Bad",2,8,9,9,"Primary",0,1,1
+"GP","M",15,"Urban","GT3","T","teacher","services","course","father",2,4,0,1,1,0,0,1,1,1,0,"Bad","Low","Low","Average",6,9,11,11,"Secondary",0,1,0
+"GP","F",15,"Urban","GT3","A","services","services","home","mother",1,2,0,0,0,0,0,0,1,0,1,"Very Bad","Medium","Low","Very Bad",24,9,8,9,"Secondary",1,0,0
+"GP","M",16,"Urban","GT3","T","services","services","course","mother",1,3,0,0,1,0,1,1,1,1,0,"Excellent","Medium","Medium","Very Good",0,15,13,13,"Higher",1,0,0
+"GP","M",16,"Urban","LE3","T","services","services","reputation","father",2,1,0,0,1,0,1,1,1,1,0,"Bad","Medium","Medium","Bad",4,12,11,11,"Middle",1,0,1
+"GP","F",15,"Urban","GT3","T","teacher","services","course","mother",1,3,0,0,1,0,1,1,1,1,0,"Good","Low","Low","Very Good",2,13,13,13,"Higher",0,1,0
+"GP","F",16,"Urban","LE3","T","at_home","at_home","course","mother",1,1,0,0,0,0,0,1,1,1,0,"Neutral","High","High","Very Bad",4,10,11,11,"Primary",1,1,1
+"GP","M",17,"Urban","GT3","T","other","other","home","mother",1,1,0,0,1,0,0,1,1,1,0,"Excellent","High","Very High","Very Good",22,9,7,6,"Middle",1,0,1
+"GP","F",15,"Urban","GT3","T","other","services","course","father",1,2,0,0,1,0,0,1,1,1,0,"Good","High","Low","Very Good",0,12,12,12,"Primary",1,1,1
+"GP","F",15,"Urban","LE3","A","at_home","other","home","mother",2,1,0,0,1,0,1,1,0,1,1,"Good","High","Low","Very Good",0,11,10,10,"Middle",0,0,0
+"GP","F",15,"Urban","GT3","T","health","services","home","father",1,2,1,0,1,0,0,1,1,1,0,"Neutral","Medium","Low","Average",2,11,11,11,"Middle",0,1,0
+"GP","F",15,"Urban","GT3","T","at_home","other","course","mother",1,2,0,0,1,0,0,0,1,1,0,"Good","Medium","Low","Very Good",6,13,12,13,"Primary",0,0,1
+"GP","F",15,"Urban","GT3","T","at_home","services","course","father",1,2,0,0,0,0,0,0,1,0,1,"Bad","Medium","High","Very Bad",6,11,11,11,"Middle",1,1,1
+"GP","M",16,"Urban","GT3","T","teacher","teacher","course","mother",1,1,0,0,1,0,0,1,0,1,1,"Neutral","Medium","Low","Very Good",16,9,9,8,"Higher",1,1,0
+"GP","M",15,"Urban","LE3","A","services","other","course","mother",4,1,0,0,0,0,0,1,1,1,0,"Good","Very High","Very High","Very Good",0,12,11,11,"Middle",1,0,1
+"GP","M",18,"Urban","LE3","T","other","other","course","mother",1,1,2,0,0,0,0,1,0,1,1,"Bad","Medium","Very High","Good",0,11,9,0,"Primary",1,0,0
+"GP","M",16,"Urban","LE3","T","at_home","other","course","mother",1,1,1,0,0,0,1,1,1,0,1,"Good","High","High","Very Good",6,9,10,10,"Middle",1,1,1
+"GP","F",15,"Rural","GT3","T","services","services","reputation","other",2,3,0,0,1,1,1,1,1,1,1,"Good","Low","Very Low","Average",2,13,13,13,"Secondary",1,1,0
+"GP","M",19,"Urban","GT3","T","services","at_home","home","mother",1,1,0,0,1,0,0,1,0,1,1,"Good","Very High","High","Good",6,11,9,11,"Secondary",0,0,0
+"GP","F",17,"Urban","GT3","T","other","teacher","course","mother",1,1,0,1,1,0,0,1,1,0,1,"Good","Low","Very Low","Good",0,13,13,13,"Higher",0,1,0
+"GP","M",15,"Rural","GT3","T","at_home","services","course","mother",1,2,0,1,0,1,1,1,1,0,0,"Good","High","High","Very Bad",0,7,8,8,"Middle",0,1,0
+"GP","M",17,"Rural","LE3","T","other","other","reputation","mother",1,1,3,0,0,0,0,1,1,0,0,"Bad","Low","Low","Very Good",14,9,8,10,"Primary",1,0,1
+"GP","F",18,"Rural","GT3","T","at_home","other","course","mother",3,1,3,0,1,0,1,0,1,0,0,"Excellent","Low","Very High","Good",6,11,10,11,"Primary",1,0,1
+"GP","M",16,"Rural","GT3","T","at_home","other","course","mother",3,1,0,0,0,0,0,0,1,0,0,"Good","Low","Low","Average",4,12,10,11,"Middle",1,0,1
+"GP","M",16,"Urban","GT3","T","other","services","course","father",1,2,1,0,1,0,0,1,1,1,1,"Good","Very High","Very High","Very Good",0,10,10,1,"Secondary",1,1,0
+"GP","M",16,"Urban","LE3","T","health","services","course","mother",2,1,2,0,0,0,0,0,1,1,0,"Good","High","Very High","Very Good",0,9,8,10,"Primary",1,0,1
+"GP","M",17,"Rural","LE3","T","at_home","other","course","mother",2,1,1,0,0,1,1,1,0,1,1,"Neutral","Medium","Low","Very Good",8,8,8,9,"Middle",1,1,0
+"GP","M",17,"Rural","GT3","T","other","other","course","mother",2,2,2,1,1,0,0,1,1,1,1,"Good","High","High","Average",4,7,6,8,"Secondary",1,0,0
+"GP","M",15,"Urban","LE3","T","other","other","course","mother",2,1,0,0,0,0,1,1,1,0,0,"Good","High","High","Very Good",2,8,9,10,"Primary",1,1,1
+"GP","M",16,"Urban","GT3","T","at_home","services","course","father",1,1,1,0,0,0,0,1,0,1,0,"Excellent","Medium","Medium","Bad",2,9,8,8,"Secondary",1,0,0
+"GP","M",17,"Rural","LE3","T","other","services","course","mother",4,2,0,0,0,0,1,1,0,0,1,"Excellent","Medium","Very High","Very Good",0,8,8,8,"Primary",1,1,0
+"GP","M",17,"Urban","GT3","T","services","services","course","mother",2,1,3,0,1,0,1,0,0,0,0,"Good","Very High","Low","Bad",10,8,7,8,"Secondary",0,0,0
+"GP","M",16,"Urban","GT3","T","other","other","course","father",1,2,0,0,0,0,0,1,0,1,0,"Good","Medium","Very High","Good",0,9,10,11,"Middle",1,1,0
+"GP","F",16,"Urban","GT3","T","health","services","home","father",1,2,0,0,0,0,0,1,1,1,1,"Good","Low","Medium","Average",0,17,17,18,"Middle",0,1,0
+"GP","F",16,"Urban","GT3","T","other","other","home","mother",1,2,0,0,1,0,0,0,1,1,0,"Excellent","Very Low","Very High","Good",0,12,12,13,"Middle",0,1,1
+"GP","F",16,"Urban","GT3","T","health","health","reputation","mother",1,2,0,0,1,0,0,1,1,1,1,"Good","High","Low","Average",0,16,16,17,"Higher",0,1,0
+"GP","M",16,"Urban","GT3","T","other","other","course","father",3,1,1,0,1,0,1,0,1,1,0,"Neutral","High","Very High","Bad",4,9,9,10,"Higher",1,1,0
+"GP","M",16,"Urban","GT3","T","other","other","reputation","mother",2,2,0,0,1,0,1,1,1,1,1,"Good","Medium","Low","Average",0,16,17,18,"Primary",0,1,1
+"GP","M",17,"Urban","LE3","T","teacher","other","reputation","mother",1,2,0,0,1,0,1,1,1,1,0,"Good","High","High","Very Good",0,11,9,10,"Higher",1,0,0
+"GP","F",16,"Urban","GT3","T","at_home","services","home","mother",1,2,0,0,0,0,1,0,1,1,1,"Good","Medium","Very High","Average",0,14,13,13,"Primary",0,0,0
+"GP","F",16,"Urban","LE3","T","other","other","reputation","mother",2,2,0,0,1,0,1,1,1,1,0,"Good","High","Very High","Good",0,14,14,15,"Secondary",0,1,0
+"GP","M",17,"Urban","LE3","T","teacher","other","course","mother",2,2,0,0,0,0,1,1,1,1,0,"Good","High","High","Good",0,10,11,11,"Higher",1,1,0
+"GP","F",16,"Urban","GT3","T","services","other","reputation","mother",2,2,0,0,0,0,1,0,1,1,0,"Neutral","High","High","Very Good",0,13,12,14,"Middle",1,0,1
+"GP","M",17,"Urban","GT3","T","other","other","reputation","father",1,2,0,0,0,0,1,0,1,1,0,"Good","Medium","High","Good",4,11,9,10,"Secondary",1,0,0
+"GP","M",16,"Rural","GT3","T","teacher","services","other","mother",1,1,0,0,1,0,1,1,1,1,1,"Good","Medium","Medium","Average",8,10,9,11,"Higher",1,0,0
+"GP","M",17,"Urban","GT3","T","other","other","course","mother",1,2,0,0,1,1,1,1,1,1,1,"Excellent","Low","Medium","Bad",4,11,11,13,"Higher",0,1,0
+"GP","M",16,"Urban","GT3","T","teacher","other","home","mother",1,2,0,0,1,1,1,1,1,1,0,"Neutral","High","Medium","Average",4,11,10,11,"Higher",1,0,0
+"GP","M",16,"Urban","GT3","T","services","other","home","mother",1,2,0,0,0,0,1,1,1,1,1,"Good","Low","Medium","Average",0,11,12,13,"Secondary",1,1,0
+"GP","F",17,"Urban","GT3","T","services","services","reputation","father",1,2,0,0,1,0,1,1,1,0,0,"Excellent","High","Low","Very Good",0,17,18,17,"Higher",1,1,0
+"GP","F",17,"Urban","LE3","T","other","other","reputation","mother",1,2,0,0,1,0,1,1,1,1,1,"Excellent","Medium","Medium","Very Bad",32,14,13,14,"Secondary",1,0,0
+"GP","F",16,"Urban","GT3","T","other","other","reputation","mother",1,2,0,0,1,0,0,1,1,1,0,"Very Bad","Low","Low","Very Bad",8,14,15,16,"Secondary",1,1,0
+"GP","M",17,"Urban","GT3","T","services","services","other","mother",1,2,0,0,1,0,1,1,1,1,1,"Good","Medium","High","Good",6,11,13,14,"Secondary",1,1,0
+"GP","M",16,"Urban","GT3","T","services","services","other","mother",1,1,0,0,1,0,1,1,1,1,1,"Neutral","Medium","Medium","Average",0,10,9,11,"Primary",1,0,1
+"GP","M",16,"Urban","LE3","T","other","other","course","mother",1,2,0,0,0,0,1,1,1,1,1,"Good","Low","Medium","Very Good",0,13,14,16,"Middle",1,1,1
+"GP","F",17,"Urban","GT3","A","health","other","reputation","mother",1,2,0,0,1,0,0,0,1,1,1,"Neutral","Medium","Medium","Average",10,12,13,14,"Secondary",1,1,0
+"GP","M",17,"Rural","GT3","T","at_home","other","home","mother",1,2,0,0,0,0,0,1,1,0,0,"Neutral","Very Low","Medium","Average",6,9,9,10,"Primary",1,1,1
+"GP","F",16,"Urban","GT3","T","services","services","course","mother",1,2,0,0,0,0,0,1,1,1,0,"Good","Medium","Medium","Bad",6,12,12,13,"Middle",0,1,0
+"GP","F",17,"Urban","GT3","T","at_home","services","course","mother",1,2,0,0,0,0,1,1,1,1,0,"Excellent","Medium","Medium","Average",0,12,11,12,"Primary",0,0,1
+"GP","M",17,"Urban","GT3","T","at_home","services","other","other",2,2,0,0,0,0,1,0,1,1,0,"Good","High","High","Very Good",16,10,11,12,"Middle",1,1,1
+"GP","M",16,"Rural","GT3","T","services","services","reputation","mother",1,1,0,0,1,0,1,1,1,1,0,"Good","Medium","Low","Very Good",0,11,10,10,"Secondary",1,0,0
+"GP","M",16,"Urban","GT3","T","other","other","home","father",2,1,0,0,0,0,0,1,1,1,0,"Excellent","Medium","Medium","Average",0,13,12,12,"Secondary",0,0,0
+"GP","F",17,"Urban","LE3","T","services","services","course","father",1,2,0,0,0,0,1,1,1,1,1,"Good","Medium","Low","Very Good",8,14,15,16,"Higher",0,1,0
+"GP","M",17,"Urban","GT3","T","services","teacher","home","mother",1,1,0,0,0,0,0,1,1,1,0,"Excellent","Low","Medium","Very Good",4,13,13,14,"Higher",1,1,0
+"GP","M",16,"Rural","LE3","T","teacher","other","home","father",3,1,0,0,1,0,1,1,1,1,0,"Neutral","Medium","High","Average",16,10,11,12,"Secondary",1,1,0
+"GP","F",17,"Urban","GT3","T","services","teacher","home","mother",2,1,1,0,1,0,0,1,1,1,0,"Good","Low","High","Bad",30,14,15,16,"Higher",1,1,0
+"GP","F",16,"Urban","LE3","T","teacher","teacher","reputation","mother",1,2,0,0,1,0,0,1,1,1,0,"Good","Very High","Low","Average",0,11,10,11,"Higher",1,0,0
+"GP","F",16,"Urban","GT3","T","health","other","home","mother",1,2,0,0,1,0,1,1,1,1,0,"Good","Medium","Very High","Bad",2,14,14,15,"Higher",1,1,0
+"GP","F",16,"Urban","GT3","T","other","other","reputation","mother",1,2,0,1,1,0,1,1,1,0,0,"Good","High","Medium","Good",4,11,12,12,"Middle",1,1,0
+"GP","F",17,"Urban","GT3","T","other","other","course","mother",1,2,0,0,1,0,0,0,1,0,0,"Good","High","High","Very Bad",0,14,15,15,"Primary",1,1,1
+"GP","F",17,"Rural","GT3","T","other","other","reputation","mother",1,1,0,0,1,0,0,1,1,1,0,"Excellent","Medium","Low","Average",21,13,13,13,"Middle",1,1,1
+"GP","F",16,"Rural","GT3","T","services","services","reputation","mother",2,4,0,0,1,0,1,0,1,1,0,"Excellent","Medium","Very High","Very Good",6,13,13,13,"Middle",0,1,1
+"GP","F",17,"Urban","GT3","T","at_home","services","home","mother",1,3,1,0,1,1,0,1,1,1,1,"Good","High","Medium","Very Good",14,8,9,8,"Secondary",1,1,0
+"GP","F",16,"Urban","GT3","A","services","other","course","mother",1,2,0,0,1,0,0,1,1,1,0,"Bad","Medium","Medium","Good",2,11,11,12,"Secondary",1,1,0
+"GP","F",16,"Urban","GT3","T","teacher","other","other","mother",1,2,0,0,0,0,1,1,1,1,1,"Very Bad","Medium","Low","Very Bad",4,14,15,15,"Higher",0,1,0
+"GP","F",16,"Urban","GT3","T","at_home","other","home","mother",2,1,0,0,1,0,0,1,1,0,0,"Good","Medium","Low","Very Good",2,12,13,13,"Primary",1,1,1
+"GP","F",17,"Rural","GT3","T","teacher","other","reputation","mother",2,3,0,0,1,0,1,1,1,1,1,"Good","High","Low","Good",0,11,12,12,"Higher",0,1,0
+"GP","F",19,"Urban","GT3","T","other","other","reputation","other",1,4,0,0,1,0,1,1,1,1,0,"Good","Medium","Medium","Average",4,12,12,12,"Secondary",1,1,0
+"GP","M",17,"Urban","LE3","T","services","other","home","mother",1,2,0,0,1,0,0,1,1,1,1,"Excellent","Medium","Very High","Average",15,13,12,12,"Higher",1,0,0
+"GP","F",16,"Urban","GT3","A","other","other","reputation","mother",1,2,0,1,1,0,0,1,1,1,0,"Neutral","Medium","High","Good",0,13,13,13,"Middle",0,1,1
+"GP","M",18,"Urban","GT3","T","services","other","home","mother",1,2,0,0,1,0,1,1,1,1,0,"Good","High","High","Very Good",10,12,11,11,"Middle",1,0,1
+"GP","F",17,"Rural","LE3","T","services","other","other","mother",1,1,0,0,1,0,0,1,1,0,0,"Excellent","Low","Very Low","Average",6,12,11,11,"Higher",1,0,0
+"GP","F",17,"Urban","LE3","T","other","other","reputation","mother",2,2,0,0,0,0,0,1,1,1,0,"Good","High","High","Very Bad",2,14,16,15,"Secondary",1,1,0
+"GP","F",17,"Urban","GT3","T","other","other","reputation","mother",1,2,0,0,0,0,0,1,1,1,1,"Neutral","High","Very High","Very Bad",16,11,9,10,"Higher",1,0,0
+"GP","M",18,"Urban","LE3","T","services","health","home","father",1,2,0,0,1,0,0,1,1,1,0,"Neutral","Low","High","Good",10,10,10,10,"Secondary",1,1,0
+"GP","F",17,"Urban","GT3","T","at_home","other","home","father",2,1,0,0,1,0,0,1,1,0,0,"Neutral","Medium","Medium","Average",4,12,13,13,"Secondary",1,1,0
+"GP","F",17,"Urban","GT3","T","at_home","at_home","course","mother",1,3,0,0,1,0,1,1,1,1,0,"Good","Medium","Medium","Good",0,12,12,13,"Middle",0,1,1
+"GP","F",17,"Rural","GT3","T","at_home","services","reputation","mother",2,2,0,0,1,0,1,1,1,1,0,"Good","Low","Very High","Very Good",0,11,10,11,"Middle",1,0,1
+"GP","F",17,"Urban","GT3","T","at_home","other","reputation","mother",1,3,0,0,1,0,1,1,1,0,1,"Good","Medium","High","Very Good",12,12,12,12,"Primary",0,1,1
+"GP","F",16,"Urban","GT3","T","services","teacher","other","mother",1,2,0,1,0,0,0,1,1,1,0,"Bad","Medium","Very Low","Average",0,13,13,14,"Middle",0,1,0
+"GP","M",18,"Urban","GT3","T","other","other","home","mother",2,2,3,0,1,1,0,1,1,1,0,"Neutral","Medium","Medium","Good",9,10,9,10,"Middle",1,0,1
+"GP","F",16,"Urban","GT3","T","teacher","services","home","mother",1,3,0,0,1,0,1,0,1,1,0,"Excellent","Medium","Low","Very Good",4,15,16,16,"Higher",0,1,0
+"GP","F",18,"Rural","GT3","T","other","other","reputation","mother",1,2,0,0,0,0,1,1,1,1,1,"Excellent","Medium","Medium","Good",4,8,8,8,"Secondary",0,1,0
+"GP","F",17,"Urban","GT3","T","other","other","course","mother",1,2,0,0,0,0,1,0,1,1,0,"Excellent","Medium","High","Average",2,17,18,17,"Secondary",1,1,0
+"GP","M",17,"Urban","LE3","T","services","services","reputation","father",1,2,0,0,1,0,0,0,1,1,0,"Excellent","Medium","Medium","Average",0,10,11,11,"Secondary",1,1,0
+"GP","M",18,"Urban","LE3","T","at_home","other","course","mother",4,2,0,1,1,0,1,1,1,1,1,"Good","Medium","Low","Average",2,9,10,11,"Middle",1,1,1
+"GP","F",17,"Urban","GT3","A","other","other","course","mother",2,3,0,0,0,0,1,1,1,1,1,"Neutral","Low","Medium","Average",0,15,15,16,"Middle",1,1,1
+"GP","F",17,"Urban","LE3","T","health","other","reputation","father",1,2,0,0,0,0,1,1,1,1,1,"Neutral","Low","Medium","Average",0,14,12,12,"Secondary",1,0,0
+"GP","M",17,"Rural","GT3","T","other","other","course","father",2,2,0,0,1,0,1,1,1,1,0,"Good","Very High","Low","Very Bad",0,12,13,13,"Middle",0,1,1
+"GP","M",17,"Urban","GT3","T","teacher","teacher","reputation","mother",1,2,0,1,1,0,1,1,1,1,1,"Good","Very High","Very High","Bad",0,13,13,13,"Higher",1,1,0
+"GP","M",16,"Urban","GT3","T","health","other","reputation","father",1,2,0,0,1,0,1,1,1,1,0,"Good","Low","High","Very Bad",0,13,13,14,"Higher",1,1,0
+"GP","M",16,"Urban","LE3","T","other","other","home","mother",2,2,0,0,1,0,0,1,1,1,0,"Neutral","High","Low","Very Good",2,9,9,9,"Primary",0,1,1
+"GP","M",16,"Urban","GT3","T","at_home","other","reputation","mother",2,3,0,0,0,0,1,1,1,1,1,"Excellent","Medium","Medium","Bad",0,12,12,12,"Secondary",1,1,0
+"GP","M",17,"Urban","LE3","T","other","other","home","father",1,2,0,0,0,0,1,0,1,1,1,"Good","High","Low","Good",0,16,16,16,"Middle",1,1,1
+"GP","F",16,"Urban","GT3","T","other","other","home","mother",1,1,0,0,0,0,0,1,1,1,1,"Good","Very High","Low","Very Good",4,9,10,10,"Middle",0,1,1
+"GP","F",16,"Urban","GT3","A","other","other","home","mother",1,2,0,0,0,0,1,1,1,1,1,"Excellent","Medium","Medium","Very Good",0,14,13,13,"Higher",1,0,0
+"GP","F",18,"Urban","LE3","A","services","other","course","mother",2,2,1,0,1,0,0,1,1,1,0,"Good","Medium","Medium","Average",18,10,10,10,"Middle",0,1,0
+"GP","F",18,"Urban","LE3","T","at_home","services","course","mother",1,2,1,0,1,0,0,0,1,1,1,"Excellent","Medium","Very Low","Very Good",16,9,8,10,"Middle",0,0,1
+"GP","F",18,"Urban","GT3","T","other","other","course","mother",2,1,1,0,0,0,0,1,0,1,0,"Good","Very Low","Very Low","Average",14,8,7,7,"Secondary",0,0,0
+"GP","M",18,"Urban","GT3","T","other","at_home","course","other",1,1,1,0,1,0,1,0,0,1,1,"Good","High","Medium","Very Bad",26,7,8,8,"Middle",1,1,0
+"GP","M",17,"Urban","GT3","T","teacher","teacher","course","mother",1,1,0,0,1,0,1,0,1,1,0,"Good","Low","Very Low","Very Good",6,10,8,9,"Higher",1,0,0
+"GP","F",17,"Urban","GT3","T","other","other","course","father",1,2,0,0,0,0,1,1,1,0,0,"Excellent","High","Low","Average",4,14,14,15,"Middle",0,1,0
+"GP","F",17,"Urban","LE3","T","at_home","at_home","course","mother",1,3,0,0,1,0,1,1,1,1,1,"Good","Medium","Low","Good",10,11,10,10,"Primary",1,0,1
+"GP","F",16,"Urban","GT3","T","other","other","course","mother",1,1,0,0,0,0,0,1,0,1,0,"Excellent","Medium","Very High","Very Good",4,12,11,11,"Primary",1,0,0
+"GP","F",17,"Rural","GT3","T","at_home","services","course","mother",3,2,0,0,0,0,1,1,1,0,0,"Bad","Very Low","Very Low","Average",2,13,13,13,"Middle",0,1,1
+"GP","F",17,"Rural","LE3","A","other","other","course","other",4,1,1,0,1,0,0,1,1,1,0,"Excellent","Very High","High","Very Good",14,9,9,8,"Higher",0,1,0
+"GP","M",18,"Urban","GT3","T","other","services","reputation","father",1,2,0,0,0,0,0,1,0,1,0,"Excellent","Very High","High","Bad",16,8,7,8,"Middle",1,0,0
+"GP","F",17,"Urban","LE3","A","other","other","home","mother",1,1,1,0,1,0,0,0,0,1,0,"Neutral","Very Low","Low","Very Bad",8,11,9,10,"Middle",0,0,0
+"GP","F",17,"Rural","LE3","T","at_home","other","course","mother",2,3,0,0,0,0,1,1,1,1,0,"Good","Medium","Medium","Very Good",4,15,14,15,"Primary",1,0,1
+"GP","F",17,"Urban","LE3","A","teacher","other","course","mother",1,2,0,0,1,0,1,1,1,0,0,"Good","Medium","Low","Good",4,15,14,14,"Higher",0,0,0
+"GP","M",17,"Urban","LE3","T","health","other","course","mother",2,2,0,0,0,0,1,1,1,1,1,"Bad","Very High","Very High","Very Good",8,15,15,15,"Higher",1,1,0
+"GP","M",17,"Rural","LE3","A","teacher","other","course","mother",2,2,0,0,1,0,0,1,1,1,0,"Neutral","Medium","Medium","Good",0,12,12,12,"Higher",1,1,0
+"GP","M",16,"Urban","LE3","T","teacher","other","course","mother",1,1,0,0,0,0,1,0,1,1,0,"Excellent","High","Very High","Average",7,14,14,15,"Higher",0,1,0
+"GP","M",16,"Urban","GT3","T","services","services","course","mother",1,1,0,0,0,1,1,1,1,1,0,"Excellent","Medium","Low","Very Good",4,14,15,15,"Higher",1,1,0
+"GP","F",17,"Urban","GT3","T","teacher","services","course","mother",1,2,0,0,1,1,0,1,1,1,1,"Excellent","Medium","Very Low","Very Good",2,11,11,12,"Higher",1,1,0
+"GP","M",17,"Rural","GT3","T","other","other","home","father",2,3,0,0,0,0,0,0,1,1,1,"Good","Medium","Medium","Very Bad",2,13,14,15,"Primary",0,1,1
+"GP","F",17,"Urban","GT3","T","services","other","home","mother",2,3,0,0,1,0,0,1,1,1,1,"Good","Low","Low","Very Good",10,11,11,11,"Secondary",1,1,0
+"GP","F",17,"Urban","GT3","T","at_home","other","course","mother",1,2,0,1,0,0,0,0,1,0,1,"Good","Medium","Low","Good",10,10,9,10,"Primary",0,0,1
+"GP","F",18,"Urban","GT3","T","other","other","course","other",2,3,0,0,1,0,0,0,1,1,1,"Good","High","High","Average",10,12,10,11,"Middle",0,0,1
+"GP","M",16,"Urban","GT3","T","other","other","course","mother",3,1,0,0,0,0,0,1,1,1,0,"Good","Medium","Medium","Good",7,15,16,16,"Middle",0,1,1
+"GP","F",17,"Urban","GT3","T","other","services","course","father",1,2,0,0,1,0,0,1,1,0,0,"Good","Medium","High","Very Good",4,11,10,11,"Primary",1,0,1
+"GP","M",17,"Urban","GT3","T","other","other","course","father",2,1,0,0,0,0,0,1,1,1,0,"Excellent","Low","Low","Bad",2,9,12,13,"Secondary",0,1,0
+"GP","M",22,"Urban","GT3","T","services","services","other","mother",1,1,3,0,0,0,0,0,0,1,1,"Excellent","High","Very High","Very Bad",12,7,8,5,"Secondary",1,1,0
+"GP","M",18,"Rural","LE3","T","other","services","course","mother",1,2,0,0,1,0,0,1,1,1,1,"Good","Medium","Medium","Very Good",8,10,9,10,"Secondary",1,0,0
+"GP","M",16,"Urban","GT3","T","other","other","other","mother",1,1,0,0,0,0,0,0,1,1,0,"Good","Medium","Low","Very Good",0,11,12,11,"None",1,1,1
+"GP","M",18,"Urban","GT3","T","services","other","course","mother",2,1,0,0,0,0,0,1,0,1,0,"Good","High","Very High","Very Good",8,7,8,7,"Secondary",1,1,0
+"GP","M",16,"Urban","GT3","T","at_home","other","reputation","other",3,2,1,1,1,0,0,0,1,1,0,"Excellent","Medium","Medium","Bad",4,9,11,10,"Secondary",1,1,0
+"GP","M",18,"Urban","GT3","T","services","services","other","mother",1,1,2,0,0,0,0,0,0,1,0,"Neutral","Low","Very High","Very Good",4,7,8,6,"Middle",1,1,0
+"GP","M",16,"Rural","GT3","T","other","other","course","mother",2,1,0,0,0,0,1,0,1,0,0,"Neutral","Medium","Low","Average",2,14,13,12,"Middle",1,0,1
+"GP","M",17,"Rural","GT3","T","other","other","course","mother",1,1,0,0,0,0,0,0,1,1,0,"Good","High","Low","Very Good",0,12,12,13,"Middle",1,1,1
+"GP","M",17,"Urban","LE3","T","health","other","course","mother",2,1,1,0,1,0,1,1,1,1,0,"Good","High","High","Very Good",0,9,10,10,"Primary",1,1,1
+"GP","F",18,"Urban","LE3","A","other","other","course","mother",1,2,0,0,1,0,0,0,1,1,1,"Good","Medium","High","Very Good",2,12,12,13,"Middle",1,1,1
+"GP","F",17,"Urban","LE3","T","teacher","services","reputation","mother",1,4,0,0,1,0,1,1,1,1,0,"Good","Low","Medium","Good",2,14,15,17,"Higher",0,1,0
+"GP","F",19,"Urban","GT3","T","services","services","home","mother",1,2,0,0,1,0,0,1,1,1,0,"Good","Medium","Medium","Very Good",0,10,10,11,"Middle",0,1,1
+"GP","M",18,"Urban","LE3","T","services","other","course","mother",3,2,1,0,0,0,1,0,0,1,0,"Good","High","Very High","Very Good",4,11,10,11,"Middle",1,0,0
+"GP","F",17,"Rural","GT3","T","other","other","course","mother",1,3,0,0,1,0,1,1,1,1,0,"Good","Medium","High","Very Good",2,11,12,14,"Higher",1,1,0
+"GP","F",18,"Urban","LE3","T","other","at_home","home","mother",1,3,0,0,1,0,0,0,1,0,0,"Good","High","Medium","Average",4,11,12,14,"Primary",1,1,1
+"GP","F",18,"Rural","GT3","T","other","other","home","mother",1,2,0,1,0,0,0,1,1,0,0,"Neutral","Low","Medium","Very Good",4,11,11,13,"Middle",0,1,1
+"GP","M",19,"Urban","LE3","A","services","at_home","reputation","mother",1,2,0,0,1,0,0,1,1,1,0,"Good","Medium","Very Low","Very Bad",4,11,13,14,"Higher",0,1,0
+"GP","M",18,"Urban","GT3","T","other","other","home","mother",1,2,0,0,0,0,1,1,1,1,0,"Excellent","Low","High","Good",2,16,16,16,"Middle",1,1,1
+"GP","M",17,"Rural","GT3","T","other","services","other","mother",2,1,0,0,0,0,0,0,0,0,0,"Excellent","Low","Low","Good",0,9,10,10,"Middle",0,1,0
+"GP","F",17,"Urban","LE3","T","services","services","course","father",1,4,0,0,0,0,1,1,1,1,1,"Neutral","High","Very Low","Bad",2,10,11,12,"Middle",0,1,1
+"GP","F",20,"Rural","GT3","T","other","other","course","other",2,2,0,0,1,1,1,1,0,1,1,"Very Bad","Low","Medium","Bad",8,10,12,12,"Middle",1,1,0
+"GP","F",18,"Urban","GT3","T","services","other","home","father",1,2,0,0,1,0,0,1,1,1,1,"Neutral","Very Low","Low","Bad",2,15,15,15,"Secondary",1,1,0
+"GP","M",18,"Urban","GT3","T","teacher","other","course","mother",1,2,0,0,1,0,0,0,1,1,0,"Good","Medium","Low","Average",2,10,10,11,"Higher",0,1,0
+"GP","M",18,"Rural","GT3","T","other","other","course","mother",1,3,0,0,0,0,1,0,1,0,0,"Excellent","Medium","Low","Average",2,10,11,12,"Secondary",0,1,0
+"GP","F",17,"Urban","GT3","T","other","other","home","mother",1,3,0,0,0,0,1,0,1,0,0,"Neutral","Low","Medium","Good",2,15,12,13,"Secondary",0,0,0
+"GP","F",18,"Urban","GT3","T","at_home","services","home","mother",1,3,0,0,1,0,1,1,1,1,1,"Good","Medium","Medium","Average",0,11,12,13,"Middle",0,1,1
+"GP","M",17,"Urban","GT3","T","other","other","home","father",2,1,0,0,0,0,0,1,0,1,0,"Good","High","High","Good",8,8,8,9,"Middle",1,1,0
+"GP","M",18,"Rural","LE3","A","other","other","reputation","mother",2,2,0,0,1,0,1,1,1,1,0,"Good","Low","Very High","Very Bad",6,15,16,16,"Secondary",1,1,0
+"GP","M",17,"Urban","GT3","T","services","other","other","mother",1,2,0,0,0,0,1,1,1,1,1,"Excellent","High","High","Very Good",0,11,11,14,"Secondary",1,1,0
+"GP","F",18,"Rural","GT3","T","teacher","other","reputation","mother",2,2,0,0,0,0,1,1,1,1,0,"Good","Medium","High","Good",8,10,11,12,"Higher",1,1,0
+"GP","M",18,"Urban","GT3","T","health","other","reputation","father",1,2,0,0,1,0,1,1,1,1,1,"Excellent","High","Very High","Very Good",4,10,12,14,"Middle",1,1,0
+"GP","F",18,"Rural","GT3","T","other","other","reputation","mother",2,2,0,0,1,0,0,1,0,1,1,"Good","Medium","Very High","Average",12,8,9,10,"Middle",1,1,0
+"GP","F",19,"Urban","GT3","T","other","services","home","other",1,2,0,0,1,0,1,1,1,1,0,"Good","Medium","Very High","Very Good",16,11,12,12,"Secondary",1,1,0
+"GP","F",18,"Urban","GT3","T","other","services","reputation","father",1,4,0,0,1,0,1,1,1,1,1,"Good","Very High","Very High","Bad",10,16,16,16,"Secondary",1,1,0
+"GP","F",18,"Urban","LE3","T","other","other","home","mother",2,2,0,0,1,0,0,0,1,0,0,"Good","High","Medium","Average",2,13,13,13,"Primary",0,1,1
+"GP","M",17,"Rural","GT3","T","at_home","at_home","home","mother",1,2,0,0,1,0,1,0,1,0,1,"Neutral","Very High","Low","Very Bad",2,16,17,18,"Primary",1,1,1
+"GP","F",18,"Urban","GT3","T","other","other","home","mother",1,2,0,0,1,0,0,1,1,1,1,"Good","Low","Very High","Very Bad",8,14,14,15,"Middle",1,1,1
+"GP","F",17,"Urban","GT3","T","at_home","health","reputation","mother",2,2,0,0,1,0,0,1,1,1,1,"Good","Medium","Medium","Very Bad",6,15,16,16,"Middle",0,1,0
+"GP","F",17,"Urban","LE3","T","services","other","course","mother",2,2,0,1,1,0,0,1,1,1,1,"Good","High","High","Very Good",6,12,12,12,"Middle",1,1,1
+"GP","F",18,"Rural","GT3","A","other","services","home","mother",2,2,0,0,0,0,0,0,0,1,1,"Good","Very Low","Very Low","Very Good",15,12,9,10,"Secondary",0,0,0
+"GP","M",18,"Urban","GT3","T","teacher","services","home","mother",2,1,0,0,0,0,1,1,1,1,0,"Neutral","Low","High","Average",6,11,12,12,"Higher",1,1,0
+"GP","F",18,"Urban","GT3","T","health","health","reputation","father",1,2,1,1,1,0,1,1,1,1,1,"Bad","High","High","Good",2,14,12,13,"Higher",0,0,0
+"GP","F",17,"Urban","GT3","T","other","services","reputation","father",3,3,0,0,1,0,0,1,1,1,1,"Good","Low","Medium","Very Bad",8,13,15,15,"Middle",0,1,1
+"GP","F",19,"Rural","GT3","T","services","services","reputation","father",1,2,1,1,1,0,0,1,0,1,0,"Neutral","Medium","Medium","Average",0,9,8,10,"Middle",1,0,0
+"GP","M",18,"Urban","LE3","T","teacher","services","course","mother",2,1,0,0,0,0,1,1,1,1,0,"Good","Low","Medium","Very Bad",0,10,10,10,"Higher",1,1,0
+"GP","M",18,"Urban","GT3","T","at_home","other","home","other",2,1,0,0,0,0,0,0,0,1,0,"Neutral","High","High","Good",10,10,10,11,"Middle",1,1,0
+"GP","M",17,"Urban","LE3","A","services","other","home","mother",2,1,0,0,0,0,1,1,1,1,1,"Good","Very High","High","Very Good",22,11,11,10,"Higher",1,1,0
+"GP","M",17,"Urban","LE3","A","teacher","services","home","mother",1,1,0,0,0,0,0,1,1,1,0,"Good","High","High","Average",18,13,13,13,"Secondary",1,1,0
+"GP","F",18,"Rural","LE3","T","at_home","other","reputation","mother",2,4,0,0,1,0,1,1,1,0,0,"Excellent","Low","Low","Average",2,17,17,18,"Primary",0,1,1
+"GP","F",18,"Urban","GT3","T","other","other","home","mother",2,2,0,1,0,0,1,1,1,1,0,"Excellent","High","High","Good",0,12,13,13,"Primary",0,1,1
+"GP","F",17,"Urban","GT3","T","other","other","course","mother",1,2,0,0,1,0,0,0,1,1,0,"Excellent","High","Very High","Very Good",12,12,12,14,"Middle",1,1,1
+"GP","F",18,"Urban","GT3","T","other","other","reputation","mother",2,2,0,0,0,0,1,1,1,1,1,"Good","Medium","Very Low","Very Good",10,12,13,14,"Middle",0,1,1
+"GP","M",17,"Urban","GT3","T","other","other","reputation","father",1,2,0,0,0,0,0,0,1,1,0,"Good","Medium","Medium","Good",0,12,12,12,"Primary",1,1,1
+"GP","F",18,"Urban","GT3","T","at_home","at_home","other","mother",1,3,0,0,1,0,0,1,1,1,0,"Good","Medium","Medium","Bad",0,18,18,18,"Middle",1,1,1
+"GP","F",17,"Urban","GT3","T","services","teacher","reputation","mother",1,3,0,0,1,0,0,1,1,1,0,"Good","Medium","Medium","Average",0,13,13,14,"Primary",0,1,1
+"GP","M",18,"Urban","GT3","T","services","services","reputation","mother",1,3,0,0,0,0,1,1,1,1,0,"Good","Low","High","Bad",0,14,15,15,"Middle",1,1,1
+"GP","M",18,"Urban","LE3","A","teacher","teacher","reputation","mother",1,2,0,0,1,0,1,1,1,1,0,"Excellent","High","Medium","Bad",0,17,17,17,"Higher",0,1,0
+"GP","M",18,"Urban","GT3","T","teacher","other","home","mother",1,2,0,0,1,0,1,1,1,1,1,"Good","Medium","Low","Very Good",2,15,16,16,"Higher",1,1,0
+"GP","F",17,"Urban","GT3","T","health","services","reputation","mother",1,3,0,0,1,0,0,1,1,1,0,"Good","Low","Low","Average",0,17,18,18,"Higher",1,1,0
+"GP","F",17,"Rural","LE3","T","services","other","reputation","mother",2,4,0,0,1,0,0,1,1,0,0,"Neutral","Very Low","Low","Average",0,18,19,19,"Secondary",0,1,0
+"GP","M",18,"Rural","LE3","T","services","other","reputation","mother",2,3,0,0,1,0,1,1,1,1,0,"Excellent","High","Low","Good",0,14,15,15,"Secondary",0,1,0
+"GP","M",17,"Urban","GT3","T","health","other","home","mother",1,1,0,0,1,0,0,1,1,1,0,"Good","High","Medium","Very Good",0,14,15,15,"Secondary",1,1,0
+"GP","F",19,"Urban","GT3","T","health","other","reputation","other",2,2,0,0,1,0,1,1,1,1,0,"Bad","Medium","High","Bad",2,14,13,13,"Higher",1,0,0
+"GP","F",18,"Urban","LE3","T","other","other","home","other",2,2,0,0,1,0,0,1,1,1,1,"Good","High","Very High","Bad",0,13,14,14,"Higher",1,1,0
+"GP","F",18,"Urban","GT3","T","other","other","reputation","father",1,4,0,0,1,0,0,1,1,1,0,"Good","Medium","Medium","Average",0,16,17,17,"Secondary",0,1,0
+"GP","M",18,"Urban","LE3","T","teacher","teacher","home","mother",1,1,0,0,1,0,0,1,1,1,1,"Very Bad","High","Low","Very Bad",0,18,18,17,"Higher",1,1,0
+"GP","F",18,"Urban","LE3","A","health","other","home","mother",1,2,0,0,1,1,0,1,1,1,1,"Good","Low","High","Good",0,14,15,15,"Higher",0,1,0
+"GP","M",17,"Urban","LE3","T","other","teacher","home","father",2,1,0,0,0,0,0,1,1,1,0,"Good","Very Low","Very Low","Very Good",0,12,13,13,"Higher",1,1,0
+"GP","F",17,"Rural","GT3","T","services","services","reputation","mother",2,3,0,0,1,0,1,1,1,1,0,"Excellent","Medium","High","Very Good",0,7,7,8,"Higher",0,1,0
+"GP","F",17,"Urban","GT3","T","other","other","reputation","mother",2,3,0,0,1,0,0,1,1,1,0,"Good","Medium","Medium","Average",0,16,16,16,"Higher",0,1,0
+"GP","F",17,"Urban","GT3","T","health","health","reputation","father",1,4,0,0,1,0,1,0,1,1,0,"Excellent","Low","Low","Very Good",0,18,18,18,"Middle",1,1,0
+"GP","M",19,"Rural","LE3","T","at_home","services","course","mother",2,3,1,0,0,0,1,1,1,1,1,"Good","Medium","Very Low","Very Good",0,9,10,11,"Middle",0,1,1
+"GP","M",20,"Urban","GT3","A","services","other","course","other",1,1,2,0,0,0,1,1,1,0,0,"Excellent","Very High","Medium","Very Good",0,14,15,15,"Secondary",0,1,0
+"GP","M",19,"Rural","GT3","T","other","services","reputation","father",1,2,0,0,0,0,1,1,1,0,1,"Good","Very High","Medium","Very Good",0,10,10,11,"Secondary",1,1,0
+"GP","F",18,"Urban","GT3","T","other","teacher","home","mother",1,2,0,1,1,0,0,0,1,0,1,"Neutral","High","High","Very Good",2,10,10,11,"Primary",1,1,0
+"GP","F",18,"Urban","GT3","T","services","other","course","mother",2,2,0,0,1,0,1,1,1,1,0,"Excellent","Medium","Medium","Very Bad",2,12,12,15,"Middle",1,1,1
+"GP","F",17,"Urban","GT3","T","other","other","course","father",2,2,0,0,0,0,1,1,1,1,1,"Good","Low","Very Low","Average",2,11,12,14,"Secondary",0,1,0
+"GP","F",17,"Rural","GT3","T","teacher","teacher","course","mother",1,1,0,0,0,0,1,1,1,1,0,"Good","High","High","Very Good",2,15,16,17,"Higher",0,1,0
+"GP","F",18,"Urban","GT3","T","other","other","course","mother",1,3,0,0,1,0,1,1,1,1,1,"Good","Medium","High","Very Good",2,14,15,17,"Higher",0,1,0
+"GP","F",18,"Urban","LE3","T","health","services","course","mother",2,1,0,0,1,0,0,1,1,1,0,"Neutral","Low","High","Very Bad",8,12,12,15,"Higher",1,1,0
+"GP","F",17,"Rural","GT3","T","at_home","services","course","father",1,3,0,0,1,0,1,0,1,1,0,"Good","Medium","High","Very Good",2,15,15,17,"Higher",1,1,0
+"GP","F",18,"Urban","GT3","T","at_home","other","course","father",1,2,0,0,1,0,0,1,1,1,0,"Good","Very Low","High","Average",8,11,12,14,"Secondary",0,1,0
+"GP","M",19,"Urban","GT3","T","health","other","course","mother",2,2,0,0,1,0,1,1,1,1,1,"Excellent","High","High","Very Bad",9,11,10,10,"Higher",0,0,0
+"GP","F",18,"Urban","GT3","T","teacher","other","course","mother",1,2,0,0,1,0,0,1,1,1,0,"Good","High","High","Very Good",0,12,11,13,"Higher",1,0,0
+"GP","F",18,"Urban","GT3","T","other","other","course","mother",1,1,0,0,1,0,1,1,1,1,1,"Excellent","High","High","Very Bad",4,11,12,14,"Secondary",0,1,0
+"GP","F",17,"Urban","GT3","T","health","health","course","mother",1,1,0,0,0,0,1,1,1,1,0,"Excellent","Medium","High","Very Good",2,14,15,17,"Higher",1,1,0
+"GP","F",17,"Urban","GT3","A","services","services","course","mother",1,2,0,0,1,0,0,1,1,1,1,"Excellent","Low","Low","Very Good",14,15,14,17,"Higher",1,0,0
+"GP","F",17,"Urban","LE3","A","services","other","home","mother",1,2,0,1,1,0,0,1,1,1,0,"Excellent","Medium","Medium","Very Good",0,12,12,13,"Secondary",0,1,0
+"GP","F",17,"Urban","LE3","T","other","other","home","father",1,2,0,0,0,0,1,1,1,1,0,"Good","Low","Medium","Bad",2,11,12,14,"Primary",1,1,1
+"GP","M",18,"Urban","LE3","T","other","other","reputation","father",1,1,0,0,1,0,0,1,1,1,0,"Good","Low","Very High","Very Good",2,8,9,11,"Higher",1,1,0
+"GP","F",19,"Urban","GT3","T","other","other","course","other",3,3,0,0,0,0,1,1,0,0,1,"Very Bad","Very High","Very High","Very Good",12,10,10,11,"Primary",1,1,0
+"GP","F",19,"Urban","LE3","A","other","other","course","other",3,2,2,0,1,0,0,0,1,1,1,"Excellent","Medium","High","Good",2,8,8,9,"Primary",0,1,1
+"GP","F",18,"Urban","GT3","T","other","other","course","mother",1,1,0,0,1,0,1,1,1,1,1,"Good","Medium","Very High","Very Good",2,10,10,10,"Middle",1,1,1
+"GP","F",17,"Urban","GT3","T","other","other","course","mother",1,2,0,0,1,0,0,1,1,0,1,"Good","Low","Low","Average",4,14,13,13,"Middle",0,0,1
+"GP","F",17,"Rural","LE3","T","services","services","course","mother",1,3,0,0,1,0,1,1,1,1,0,"Neutral","Medium","Low","Average",0,11,11,10,"Middle",1,1,1
+"GP","F",17,"Urban","GT3","T","services","services","course","father",1,3,0,0,1,0,0,0,1,1,0,"Neutral","High","Medium","Very Good",0,17,18,17,"Primary",1,1,0
+"GP","F",17,"Urban","LE3","T","at_home","at_home","home","father",2,3,0,0,0,0,0,1,1,1,0,"Neutral","Medium","Medium","Bad",0,14,14,15,"Middle",1,1,1
+"GP","F",18,"Urban","GT3","T","other","other","home","mother",2,3,0,0,0,0,1,1,1,1,0,"Good","Very High","Very High","Bad",0,14,14,14,"Primary",1,1,1
+"GP","M",18,"Urban","GT3","T","other","other","course","mother",1,3,0,0,0,0,1,1,1,1,0,"Good","Medium","Medium","Average",0,13,14,13,"Higher",1,1,0
+"GP","M",17,"Urban","GT3","T","other","services","reputation","mother",1,1,0,0,0,0,1,0,1,1,0,"Good","Medium","Very High","Very Good",0,17,18,17,"Secondary",1,1,0
+"GP","M",17,"Rural","GT3","T","services","other","course","mother",4,1,0,0,1,0,0,1,1,1,0,"Good","High","Very High","Good",2,11,10,10,"Middle",1,0,1
+"GP","F",17,"Urban","GT3","T","teacher","services","course","mother",1,3,0,0,1,0,1,1,1,1,0,"Excellent","High","High","Good",0,13,12,13,"Higher",1,0,0
+"GP","F",17,"Urban","GT3","T","teacher","teacher","course","mother",2,3,0,0,1,0,0,0,1,1,1,"Good","Medium","Medium","Good",4,15,14,15,"Higher",1,0,0
+"GP","F",17,"Urban","GT3","T","at_home","other","course","mother",1,1,0,0,1,1,1,1,1,1,0,"Good","Low","Very High","Very Good",2,11,12,11,"Secondary",1,1,0
+"GP","M",18,"Urban","LE3","T","other","other","course","mother",1,4,0,0,1,1,1,1,1,1,0,"Good","Very High","Very High","Very Good",0,11,11,12,"Middle",1,1,1
+"GP","M",19,"Rural","GT3","T","at_home","services","home","other",1,1,0,0,1,0,0,0,1,0,1,"Excellent","Medium","High","Very Good",0,11,10,10,"Secondary",1,0,0
+"GP","F",18,"Urban","GT3","T","at_home","other","course","mother",4,2,0,0,0,0,1,1,1,0,1,"Good","Low","Very High","Bad",2,10,9,10,"Middle",0,0,1
+"GP","F",17,"Rural","GT3","T","at_home","other","course","father",1,3,0,0,1,0,0,1,1,1,1,"Good","High","Medium","Very Good",0,15,15,15,"Higher",0,1,0
+"GP","M",18,"Urban","GT3","T","other","other","reputation","mother",1,1,0,0,0,0,0,0,1,1,0,"Excellent","High","Low","Very Good",6,15,14,15,"Middle",1,0,1
+"GP","F",18,"Urban","GT3","T","services","services","home","mother",1,2,0,0,0,0,1,1,1,1,0,"Excellent","Medium","High","Good",8,10,11,12,"Secondary",0,1,0
+"GP","F",18,"Urban","LE3","T","other","other","home","other",1,2,0,0,0,0,1,0,1,1,1,"Good","Medium","Medium","Bad",0,10,9,12,"Middle",0,0,1
+"GP","F",18,"Rural","GT3","T","at_home","other","course","mother",2,4,0,0,0,0,1,1,1,0,0,"Good","High","High","Good",6,14,13,14,"Middle",0,0,1
+"GP","F",17,"Urban","GT3","T","services","other","course","mother",1,3,0,0,0,0,0,1,1,1,0,"Good","High","Very High","Very Good",8,11,13,14,"Secondary",1,1,0
+"GP","F",17,"Urban","GT3","T","other","other","home","mother",1,2,0,0,1,0,0,1,1,1,1,"Good","Medium","Low","Bad",0,12,13,15,"Secondary",1,1,0
+"GP","F",18,"Urban","LE3","T","services","services","home","mother",1,4,0,0,1,0,0,1,1,1,0,"Excellent","Medium","Medium","Very Bad",4,14,14,15,"Secondary",0,1,0
+"GP","F",17,"Rural","GT3","A","other","other","home","mother",1,2,0,0,1,0,0,1,1,1,0,"Good","Medium","Medium","Bad",0,14,14,16,"Secondary",1,1,0
+"GP","M",18,"Urban","GT3","T","teacher","services","home","father",1,2,0,0,1,0,1,1,1,1,0,"Good","Medium","Medium","Bad",0,12,12,13,"Higher",1,1,0
+"GP","M",18,"Urban","LE3","T","services","other","home","mother",1,2,0,0,0,0,1,1,1,1,1,"Good","Medium","Medium","Very Good",6,16,16,17,"Secondary",1,1,0
+"GP","F",17,"Urban","GT3","A","at_home","at_home","home","father",1,2,0,0,1,0,0,1,1,1,1,"Neutral","Medium","Very Low","Good",18,10,12,14,"Middle",1,1,1
+"GP","F",18,"Urban","GT3","T","at_home","other","course","mother",1,3,0,0,1,0,0,1,1,1,0,"Good","Medium","Medium","Average",0,11,12,14,"Middle",1,1,0
+"GP","F",18,"Urban","GT3","T","other","services","other","mother",1,3,0,0,0,0,0,1,1,1,1,"Excellent","High","Medium","Very Bad",4,14,16,17,"Secondary",1,1,0
+"GP","M",18,"Rural","GT3","T","teacher","services","course","mother",1,3,0,0,0,0,0,1,1,1,1,"Excellent","Medium","Low","Good",4,15,14,17,"Higher",1,0,0
+"GP","M",18,"Urban","GT3","T","teacher","other","course","mother",1,3,0,0,1,0,0,1,1,1,1,"Excellent","High","Very High","Very Good",0,14,13,14,"Higher",1,0,0
+"GP","F",17,"Urban","GT3","T","health","other","reputation","mother",1,3,0,0,1,0,1,1,1,1,1,"Good","High","Medium","Good",0,11,12,13,"Higher",1,1,0
+"GP","F",17,"Urban","GT3","T","services","other","course","mother",2,2,0,0,1,0,1,1,1,1,1,"Good","Medium","High","Very Bad",10,12,15,15,"Middle",1,1,1
+"GP","F",17,"Urban","GT3","T","services","other","reputation","mother",1,2,0,0,1,0,1,1,1,1,0,"Good","Medium","Very High","Good",4,12,16,16,"Middle",1,1,1
+"GP","F",19,"Urban","LE3","A","at_home","other","home","other",2,1,1,0,0,0,0,1,0,1,0,"Bad","Low","Medium","Very Good",16,10,11,11,"Secondary",1,1,0
+"GP","F",17,"Urban","GT3","T","other","at_home","home","mother",1,1,1,0,1,1,0,1,1,1,1,"Good","Very Low","Low","Average",6,10,13,13,"Secondary",0,1,0
+"GP","F",21,"Urban","LE3","T","other","other","reputation","other",1,3,2,0,0,1,1,1,1,1,0,"Neutral","Medium","Low","Very Good",0,9,12,12,"Higher",0,1,0
+"GP","M",18,"Urban","LE3","T","services","services","reputation","mother",1,2,0,0,1,0,1,0,0,1,0,"Good","High","High","Average",11,9,11,12,"Middle",1,1,0
+"GP","M",18,"Urban","LE3","A","other","other","reputation","other",1,2,0,0,0,0,1,1,1,1,1,"Good","Medium","Very High","Bad",9,13,14,15,"Higher",1,1,0
+"GP","F",17,"Urban","GT3","T","services","services","reputation","mother",1,2,0,0,1,0,1,1,1,1,0,"Good","Medium","High","Good",0,13,17,17,"Middle",1,1,1
+"GP","M",17,"Urban","LE3","A","health","other","reputation","mother",1,3,0,0,1,0,0,1,1,1,0,"Good","High","Low","Good",2,12,15,15,"Higher",1,1,0
+"GP","F",18,"Urban","LE3","T","teacher","other","course","mother",1,2,0,0,1,0,1,1,1,1,0,"Good","Low","Low","Average",0,14,17,17,"Higher",0,1,0
+"GP","M",21,"Rural","LE3","T","at_home","other","course","other",2,2,2,0,1,0,1,1,0,1,1,"Excellent","Medium","Medium","Good",21,9,10,10,"Primary",1,1,0
+"GP","F",20,"Rural","GT3","T","other","other","reputation","other",2,3,0,0,0,0,0,1,1,1,1,"Neutral","Low","Low","Average",8,11,15,15,"Primary",1,1,1
+"GP","F",19,"Urban","GT3","T","teacher","other","home","other",1,1,1,0,1,0,0,1,1,1,1,"Neutral","Low","Very High","Very Good",5,9,10,11,"Higher",1,1,0
+"GP","M",17,"Urban","LE3","A","other","other","reputation","mother",1,2,0,0,1,0,0,1,1,1,0,"Good","High","High","Very Good",10,16,18,18,"Secondary",1,1,0
+"GP","F",18,"Urban","GT3","T","at_home","other","reputation","father",1,3,0,0,1,0,0,1,1,1,1,"Good","Medium","High","Bad",5,14,17,17,"Middle",1,1,0
+"GP","M",18,"Rural","GT3","T","other","services","reputation","father",1,1,0,0,0,0,0,1,1,1,0,"Neutral","Very Low","Medium","Good",13,13,14,14,"Secondary",1,1,0
+"GP","M",19,"Urban","GT3","T","other","other","reputation","mother",1,1,0,0,0,0,0,1,1,1,0,"Excellent","Medium","High","Good",10,7,11,11,"Middle",1,1,1
+"GP","F",18,"Urban","LE3","A","services","other","reputation","mother",2,2,0,0,1,0,0,1,1,1,0,"Good","Very Low","High","Good",10,14,17,17,"Middle",1,1,1
+"GP","F",20,"Urban","GT3","T","other","other","reputation","mother",2,1,1,1,0,0,0,1,1,1,1,"Excellent","Medium","Very Low","Very Good",5,8,10,10,"Primary",0,1,1
+"GP","F",18,"Urban","GT3","T","services","other","home","mother",1,2,0,0,1,0,1,0,1,1,1,"Neutral","Very Low","Low","Very Bad",4,10,13,13,"Secondary",1,1,0
+"MS","F",16,"Urban","GT3","T","at_home","other","other","father",2,1,0,0,1,0,0,1,0,1,1,"Good","Medium","Medium","Very Good",11,10,11,11,"Secondary",1,1,0
+"MS","F",16,"Rural","GT3","T","other","other","course","mother",2,2,0,0,1,0,1,1,1,1,0,"Good","High","High","Very Good",0,12,12,12,"Middle",0,1,1
+"MS","F",15,"Rural","GT3","T","at_home","services","other","mother",1,1,1,0,1,0,0,1,1,0,1,"Good","Very Low","Medium","Bad",6,10,10,10,"Primary",0,1,1
+"MS","F",15,"Rural","GT3","T","at_home","other","course","mother",2,1,0,0,1,0,0,1,1,1,0,"Excellent","High","High","Very Good",4,10,10,11,"Secondary",1,1,0
+"MS","F",16,"Rural","GT3","T","at_home","services","course","mother",2,2,0,0,0,0,0,1,1,0,0,"Good","Very High","Low","Very Good",0,16,17,17,"Middle",1,1,0
+"MS","F",15,"Rural","LE3","T","at_home","other","home","mother",2,1,0,0,0,0,0,1,0,0,0,"Very Bad","Medium","High","Very Bad",0,6,8,9,"Middle",0,1,0
+"MS","M",16,"Rural","LE3","A","at_home","other","home","mother",1,2,0,0,1,0,0,1,1,0,0,"Excellent","Medium","Low","Bad",5,10,11,11,"Higher",1,1,0
+"MS","M",16,"Urban","GT3","A","other","other","other","mother",1,3,0,1,0,0,0,1,1,1,0,"Good","High","Medium","Very Good",0,10,11,11,"Primary",0,1,1
+"MS","F",17,"Rural","GT3","T","at_home","other","course","father",1,2,1,0,0,0,0,1,1,0,1,"Good","Very High","High","Very Good",0,10,10,10,"Middle",1,1,0
+"MS","F",17,"Rural","GT3","T","other","other","other","father",1,1,1,0,1,0,0,0,0,1,0,"Excellent","High","High","Very Good",0,6,6,7,"Primary",1,1,0
+"MS","F",15,"Rural","GT3","T","teacher","other","course","mother",2,1,0,0,0,0,0,1,1,1,1,"Very Bad","Very High","Very Low","Very Good",0,13,14,14,"Higher",1,1,0
+"MS","F",16,"Urban","LE3","A","at_home","other","reputation","mother",2,4,0,0,0,0,1,0,0,0,1,"Very Bad","Low","Very Low","Very Bad",4,10,9,11,"Middle",0,0,0
+"MS","F",15,"Rural","LE3","T","at_home","services","reputation","father",2,2,0,0,1,0,0,1,1,1,0,"Excellent","High","Medium","Good",0,10,10,10,"Primary",1,1,1
+"MS","F",15,"Rural","LE3","T","other","services","course","mother",2,1,1,0,1,0,0,1,1,1,1,"Good","High","Medium","Bad",4,6,7,8,"Primary",1,1,1
+"MS","F",16,"Rural","GT3","T","other","other","other","mother",2,1,0,0,1,0,1,1,1,0,0,"Neutral","Low","Medium","Bad",0,12,11,12,"None",1,0,1
+"MS","F",17,"Rural","GT3","T","other","other","course","mother",2,1,0,0,1,0,0,1,1,1,0,"Excellent","Very High","Very High","Average",2,10,11,12,"Middle",1,1,0
+"MS","F",15,"Rural","GT3","T","other","services","course","father",2,1,0,0,0,0,0,0,1,1,0,"Good","Very Low","Medium","Good",0,14,16,16,"Secondary",0,1,0
+"MS","M",16,"Urban","GT3","T","at_home","services","home","mother",2,2,0,0,1,0,1,1,1,0,1,"Excellent","High","Very High","Average",0,7,0,0,"Primary",1,0,1
+"MS","M",17,"Urban","GT3","T","other","other","home","mother",1,2,0,0,0,1,0,0,1,1,0,"Good","High","Medium","Very Good",4,8,9,9,"Primary",1,1,1
+"MS","M",15,"Rural","LE3","T","health","services","reputation","father",1,2,0,0,1,0,1,1,1,1,0,"Excellent","Medium","High","Bad",0,12,13,14,"Primary",1,1,0
+"MS","M",15,"Rural","LE3","T","health","services","reputation","father",1,2,0,0,1,0,1,1,1,1,0,"Excellent","Medium","High","Bad",7,7,9,8,"Primary",1,1,0
+"MS","M",16,"Rural","GT3","T","other","health","other","mother",3,2,0,0,0,0,0,0,1,0,0,"Neutral","High","Very High","Very Good",4,9,10,11,"Secondary",1,1,0
+"MS","M",15,"Rural","GT3","T","other","other","course","mother",4,2,0,0,1,0,1,1,1,0,1,"Excellent","High","Very High","Good",8,7,9,9,"Primary",1,1,1
+"MS","M",15,"Urban","LE3","T","at_home","at_home","reputation","father",1,2,0,0,1,0,1,1,1,1,0,"Excellent","Medium","Medium","Very Good",0,11,11,11,"Secondary",0,1,0
+"MS","M",17,"Rural","GT3","T","other","other","other","mother",3,1,0,0,0,0,1,1,0,0,1,"Excellent","Very High","Very High","Average",8,8,10,9,"Middle",1,1,0
+"MS","F",16,"Rural","GT3","T","teacher","teacher","course","mother",2,3,0,0,0,0,1,1,1,1,1,"Good","Low","Low","Good",6,16,16,17,"Higher",0,1,0
+"MS","F",15,"Rural","GT3","T","other","services","course","mother",2,1,0,0,0,0,0,1,1,0,0,"Excellent","Very Low","Low","Very Bad",3,11,13,13,"Primary",0,1,1
+"MS","F",16,"Rural","GT3","T","other","services","course","mother",3,2,0,0,1,0,0,1,1,1,0,"Good","Very High","High","Very Bad",2,15,15,15,"Middle",1,1,0
+"MS","M",16,"Rural","GT3","T","other","other","course","father",2,2,0,0,0,0,0,1,1,0,0,"Good","Medium","Medium","Very Good",0,10,11,11,"Middle",0,1,1
+"MS","F",16,"Rural","GT3","T","other","other","course","mother",3,2,0,0,1,0,0,1,1,1,0,"Good","High","Very High","Good",4,9,10,11,"Middle",0,1,1
+"MS","F",16,"Urban","GT3","T","other","services","course","mother",1,3,1,0,1,0,0,1,1,0,0,"Very Bad","Medium","Low","Good",0,10,8,8,"Primary",1,0,1
+"MS","F",16,"Urban","GT3","T","other","services","course","mother",1,3,1,0,1,0,0,1,1,0,0,"Very Bad","Medium","Low","Good",3,9,8,8,"Primary",1,0,1
+"MS","F",15,"Urban","GT3","T","at_home","other","home","mother",1,2,0,1,1,0,0,0,1,1,0,"Good","High","Low","Bad",0,9,10,9,"Middle",1,1,1
+"MS","F",16,"Urban","GT3","T","at_home","other","course","father",1,2,0,0,1,0,0,0,1,0,1,"Excellent","High","Medium","Bad",0,13,14,15,"Primary",1,1,1
+"MS","M",17,"Rural","LE3","T","at_home","services","reputation","mother",1,1,0,0,1,0,1,1,1,1,0,"Excellent","Very High","Very High","Average",4,10,11,11,"Primary",1,1,1
+"MS","F",16,"Rural","GT3","T","other","other","home","father",4,4,0,0,1,0,0,0,1,1,0,"Good","Medium","Low","Very Bad",0,13,10,13,"Primary",0,0,1
+"MS","F",16,"Rural","GT3","T","at_home","other","other","father",4,3,0,1,1,0,0,1,1,0,0,"Good","High","Medium","Very Good",2,10,9,10,"Primary",0,0,1
+"MS","F",15,"Rural","GT3","T","at_home","other","home","father",2,2,0,0,1,0,1,1,1,1,0,"Good","Medium","Medium","Bad",1,11,10,11,"Primary",0,0,1
+"MS","F",16,"Rural","GT3","T","at_home","other","other","mother",2,1,0,0,0,0,1,1,1,1,1,"Good","Low","Low","Bad",0,13,12,14,"Primary",1,0,1
+"MS","F",15,"Rural","GT3","T","at_home","at_home","course","father",3,2,0,0,1,0,0,1,1,0,0,"Good","Low","Very Low","Bad",0,13,14,14,"Primary",1,1,1
+"MS","F",15,"Rural","LE3","T","other","other","other","father",1,3,0,1,1,0,0,1,1,0,0,"Good","High","Medium","Very Good",2,14,11,12,"Middle",1,0,1
+"MS","M",16,"Rural","GT3","T","at_home","other","other","father",2,1,0,0,0,0,1,1,1,0,0,"Neutral","High","High","Very Good",6,11,11,11,"Primary",1,1,1
+"MS","F",18,"Urban","GT3","T","other","other","course","father",1,2,1,0,1,0,1,1,1,1,1,"Neutral","High","High","Very Good",9,9,8,8,"Middle",1,0,1
+"MS","M",15,"Urban","GT3","T","other","services","home","mother",2,1,0,0,1,0,0,1,1,0,0,"Neutral","Low","Medium","Good",0,10,9,11,"Secondary",1,0,0
+"MS","F",16,"Rural","GT3","T","other","services","course","father",3,2,0,0,1,0,1,1,1,1,0,"Excellent","Medium","High","Bad",1,14,13,14,"Middle",0,0,1
+"MS","M",15,"Urban","GT3","T","health","other","reputation","mother",3,1,0,0,0,0,0,1,1,0,0,"Good","Medium","Medium","Good",1,13,12,13,"Middle",1,0,1
+"MS","M",16,"Urban","GT3","T","other","teacher","course","father",1,2,0,0,1,0,1,1,1,0,1,"Good","Medium","Very Low","Average",0,13,12,13,"Higher",0,0,0
+"MS","F",15,"Rural","GT3","T","services","other","reputation","mother",1,2,0,0,1,0,0,1,1,1,1,"Good","Very High","High","Very Bad",4,13,12,12,"Secondary",0,0,0
+"MS","F",16,"Rural","GT3","T","at_home","other","course","mother",2,2,1,0,1,0,1,0,1,0,0,"Good","High","High","Very Good",2,12,11,12,"Middle",1,0,1
+"MS","F",16,"Rural","LE3","T","other","other","home","father",3,1,0,0,1,0,1,1,1,0,1,"Good","Medium","Low","Good",0,14,14,16,"Middle",0,1,1
+"MS","M",16,"Urban","LE3","T","at_home","services","course","mother",2,1,0,0,1,0,1,1,1,1,0,"Bad","High","Medium","Good",4,10,8,10,"Middle",1,0,1
+"MS","M",15,"Rural","LE3","T","at_home","other","reputation","father",3,1,0,0,1,0,1,1,1,1,0,"Good","Low","High","Average",2,10,11,11,"Secondary",1,1,0
+"MS","F",15,"Urban","GT3","T","other","services","course","mother",2,3,0,0,1,0,1,1,1,0,0,"Excellent","Medium","Low","Good",0,12,13,14,"Middle",0,1,1
+"MS","F",16,"Rural","LE3","T","other","other","home","mother",1,1,0,0,1,0,0,1,1,1,1,"Excellent","High","Medium","Very Good",2,10,8,8,"Middle",0,0,1
+"MS","M",15,"Urban","GT3","T","services","services","course","father",2,1,0,0,1,0,1,0,1,1,0,"Good","Medium","Medium","Average",11,12,10,11,"Secondary",1,0,0
+"MS","F",16,"Rural","GT3","T","at_home","other","course","father",2,2,3,1,1,0,0,1,1,0,0,"Neutral","High","Medium","Very Bad",0,7,7,8,"Primary",0,1,1
+"MS","F",17,"Urban","GT3","T","other","at_home","course","mother",1,1,0,0,1,0,1,1,0,0,0,"Good","Very High","Medium","Very Good",4,9,9,10,"Middle",0,1,0
+"MS","F",19,"Urban","GT3","T","at_home","services","course","other",1,1,1,0,0,0,0,1,0,1,1,"Good","High","High","Bad",0,9,9,10,"Secondary",0,1,0
+"MS","F",17,"Rural","GT3","T","at_home","other","course","mother",3,1,0,0,1,0,1,1,0,0,1,"Excellent","Very High","Medium","Average",2,9,10,11,"Middle",0,1,0
+"MS","F",15,"Rural","LE3","T","at_home","other","course","mother",2,1,0,0,1,0,0,1,0,0,1,"Excellent","Low","Very Low","Good",0,9,10,9,"Primary",1,1,0
+"MS","F",16,"Rural","GT3","T","other","other","course","father",3,2,0,0,1,0,0,1,0,1,0,"Neutral","High","Very High","Very Bad",1,9,10,11,"Middle",1,1,0
+"MS","F",16,"Urban","LE3","A","other","other","home","mother",1,1,0,0,1,0,0,1,0,0,0,"Good","Medium","High","Very Bad",6,7,7,8,"Middle",1,1,0
+"MS","F",17,"Rural","GT3","T","at_home","other","course","mother",2,2,0,0,1,0,0,1,1,1,0,"Good","Medium","Very High","Good",0,11,10,11,"Middle",1,0,1
+"MS","F",16,"Urban","GT3","T","other","services","course","father",1,1,1,0,1,1,1,0,1,1,0,"Good","High","Medium","Average",1,9,10,10,"Middle",1,1,1
+"MS","F",18,"Rural","LE3","A","other","other","course","other",2,3,2,0,1,0,0,0,0,0,1,"Neutral","Medium","Low","Bad",6,7,9,10,"Secondary",0,1,0
+"MS","F",19,"Urban","GT3","T","at_home","services","course","mother",1,3,1,0,0,0,1,1,0,0,1,"Excellent","Medium","Very Low","Average",6,7,9,9,"Primary",0,1,0
+"MS","M",18,"Rural","GT3","T","other","other","home","mother",2,1,1,0,0,0,1,1,0,1,0,"Good","High","Medium","Good",0,8,9,10,"Primary",1,1,0
+"MS","F",18,"Rural","GT3","T","at_home","at_home","course","mother",2,1,1,0,0,0,0,0,0,1,1,"Neutral","Low","Medium","Bad",4,9,11,10,"Primary",0,1,0
+"MS","F",19,"Urban","GT3","T","other","other","course","other",2,2,1,0,1,0,0,1,1,1,1,"Very Bad","Very Low","High","Very Bad",12,7,8,9,"Primary",1,1,1
+"MS","F",16,"Rural","GT3","A","health","other","course","mother",1,2,0,0,0,0,0,0,1,0,1,"Neutral","Medium","Low","Average",2,8,10,10,"Middle",0,1,1
+"MS","F",17,"Urban","GT3","T","other","at_home","course","father",2,1,0,0,0,0,1,0,1,0,0,"Bad","High","High","Very Good",5,9,9,10,"Primary",1,1,1
+"MS","F",16,"Rural","LE3","T","at_home","other","course","mother",1,2,0,0,0,0,1,1,0,1,0,"Good","High","Very High","Average",0,8,9,9,"Primary",1,1,0
+"MS","F",16,"Urban","GT3","T","other","other","reputation","mother",1,1,0,0,0,0,1,1,0,1,1,"Good","Very High","High","Good",0,14,13,13,"Secondary",0,0,0
+"MS","F",16,"Rural","LE3","T","services","services","home","mother",1,1,0,0,1,0,1,1,1,1,1,"Good","High","High","Good",2,14,14,14,"Primary",1,1,1
+"MS","M",17,"Urban","GT3","T","services","at_home","course","mother",2,4,1,0,1,1,1,1,1,0,0,"Excellent","High","Very High","Very Good",0,10,11,10,"Secondary",1,1,0
+"MS","F",16,"Urban","GT3","T","other","services","course","mother",1,2,0,0,1,0,1,1,1,1,0,"Excellent","Medium","Medium","Very Bad",0,14,13,14,"Middle",0,0,1
+"MS","F",16,"Urban","GT3","T","services","other","course","mother",1,1,0,0,1,1,1,1,1,0,1,"Good","Low","Very High","Very Good",0,17,16,16,"Middle",1,0,1
+"MS","M",17,"Urban","GT3","T","other","other","course","father",1,1,1,0,1,0,1,1,0,1,1,"Excellent","Medium","Very High","Very Bad",12,6,7,7,"Middle",1,1,0
+"MS","M",16,"Urban","LE3","T","other","other","course","father",1,1,0,0,0,0,1,1,1,1,0,"Good","Low","Very High","Very Good",8,14,12,13,"Secondary",1,0,0
+"MS","M",17,"Rural","LE3","T","services","services","other","mother",3,4,1,0,1,0,0,1,1,0,0,"Very Bad","Medium","Very High","Average",2,10,8,9,"Middle",1,0,1
+"MS","F",16,"Urban","GT3","T","other","other","course","other",1,4,0,1,1,0,1,1,1,1,0,"Bad","Low","Very Low","Very Good",0,14,14,14,"Primary",0,1,1
+"MS","F",19,"Urban","LE3","T","other","other","home","mother",1,3,0,0,0,0,0,1,1,1,1,"Excellent","High","Very High","Very Bad",0,12,13,13,"Middle",0,1,1
+"MS","F",17,"Rural","GT3","T","at_home","other","reputation","mother",2,1,0,0,1,0,1,0,1,1,1,"Good","High","Very High","Very Good",0,11,11,11,"Primary",1,1,1
+"MS","F",20,"Urban","GT3","T","at_home","services","other","mother",2,2,1,0,0,0,1,1,1,1,1,"Neutral","Medium","High","Average",8,11,9,10,"Secondary",1,0,0
+"MS","F",17,"Urban","LE3","T","other","services","course","father",1,3,0,0,1,0,0,1,1,0,1,"Good","Medium","Medium","Average",0,11,11,10,"Primary",0,1,1
+"MS","M",17,"Rural","GT3","T","other","other","course","mother",3,1,1,0,1,0,0,0,1,1,0,"Good","High","Very High","Very Good",0,10,9,9,"Middle",1,0,1
+"MS","F",16,"Rural","LE3","T","at_home","other","course","father",3,2,0,0,1,0,0,1,1,0,0,"Excellent","Medium","Low","Very Bad",0,16,17,18,"Primary",0,1,1
+"MS","F",17,"Rural","GT3","T","other","other","reputation","mother",2,2,0,0,1,0,1,1,1,0,0,"Excellent","Medium","Low","Very Bad",0,15,17,17,"Middle",0,1,1
+"MS","F",17,"Urban","GT3","A","other","other","other","mother",2,2,0,0,0,0,0,1,1,1,1,"Good","High","Very High","Good",1,11,9,10,"Primary",0,0,1
+"MS","F",18,"Rural","GT3","T","at_home","other","other","mother",1,2,1,0,1,0,0,1,1,1,1,"Good","Medium","Low","Very Good",9,7,7,7,"Primary",0,1,1
+"MS","F",16,"Urban","GT3","T","other","other","course","mother",1,1,0,0,0,0,1,1,1,1,0,"Neutral","Very Low","Medium","Very Bad",0,8,6,8,"Secondary",1,0,0
+"MS","F",16,"Urban","GT3","T","services","at_home","course","mother",1,1,0,0,0,0,0,1,1,1,0,"Neutral","Very Low","Medium","Average",2,7,6,7,"Secondary",1,0,0
+"MS","F",18,"Urban","LE3","T","other","at_home","reputation","mother",2,2,0,1,0,0,0,1,1,0,0,"Bad","Medium","Very High","Average",8,9,8,10,"Primary",1,0,1
+"MS","F",16,"Rural","GT3","T","health","teacher","reputation","father",1,2,0,0,0,0,1,0,1,1,1,"Good","Medium","Medium","Bad",0,14,16,16,"Higher",1,1,0
+"MS","F",16,"Rural","LE3","T","other","other","reputation","mother",2,1,0,0,0,0,1,1,1,1,0,"Excellent","High","Very High","Bad",0,14,14,15,"Primary",1,1,1
+"MS","F",18,"Urban","GT3","A","other","services","reputation","father",1,2,1,0,1,0,0,1,1,1,0,"Bad","Medium","Low","Very Bad",8,8,5,8,"Higher",1,0,0
+"MS","M",16,"Rural","GT3","T","other","services","reputation","mother",2,2,0,0,0,0,1,1,1,1,0,"Excellent","Low","Very Low","Bad",0,8,7,0,"Middle",0,0,1
+"MS","F",16,"Urban","LE3","T","at_home","other","other","mother",3,2,0,0,1,0,0,1,1,1,0,"Good","Medium","Low","Very Good",6,6,8,8,"Primary",1,1,1
+"MS","F",16,"Rural","GT3","T","at_home","services","other","mother",2,2,0,0,1,0,1,1,1,1,0,"Neutral","Medium","Medium","Bad",0,8,10,10,"Middle",0,1,0
+"MS","F",16,"Urban","GT3","T","health","health","course","mother",1,2,0,0,1,0,0,1,1,1,1,"Good","Medium","High","Average",4,8,8,8,"Higher",1,1,0
+"MS","M",18,"Urban","LE3","T","at_home","health","home","mother",1,4,0,0,1,0,1,1,0,1,1,"Excellent","Very High","Very High","Very Good",2,5,6,6,"Higher",1,1,0
+"MS","F",16,"Rural","LE3","T","at_home","other","other","mother",3,2,0,0,1,0,0,0,1,0,0,"Good","Low","Very Low","Bad",2,7,9,8,"Secondary",0,1,0
+"MS","M",17,"Urban","LE3","T","other","services","home","mother",1,3,0,0,1,0,0,1,1,1,0,"Good","High","Medium","Very Good",0,15,14,16,"Higher",1,0,0
+"MS","F",17,"Rural","GT3","T","other","other","other","mother",1,1,0,0,0,0,0,1,1,1,1,"Good","Low","Medium","Very Good",1,13,14,14,"Higher",1,1,0
+"MS","M",16,"Urban","LE3","T","services","services","other","mother",4,3,0,0,0,0,0,1,1,0,0,"Excellent","Very Low","Medium","Average",0,10,9,10,"Middle",1,0,1
+"MS","F",17,"Rural","GT3","T","at_home","other","other","mother",1,1,0,0,1,1,0,1,1,1,0,"Excellent","Very Low","Medium","Very Good",5,9,9,9,"Middle",1,1,1
+"MS","F",16,"Urban","LE3","T","services","services","other","father",2,1,0,0,1,0,0,1,1,0,0,"Excellent","Very Low","Medium","Very Good",1,11,11,11,"Higher",1,1,0
+"MS","M",17,"Urban","GT3","T","services","services","home","mother",1,1,0,0,1,0,1,1,1,1,0,"Good","Very Low","High","Average",8,7,10,9,"Secondary",1,1,0
+"MS","M",17,"Urban","GT3","T","at_home","services","other","mother",3,2,0,0,0,0,0,1,1,1,1,"Excellent","Very Low","Medium","Very Bad",0,10,10,10,"Primary",1,1,1
+"MS","M",16,"Urban","GT3","T","health","services","other","mother",2,2,0,0,0,0,0,0,1,1,1,"Good","Low","Low","Very Good",2,9,7,8,"Middle",1,0,1
+"MS","F",16,"Urban","LE3","T","other","services","other","mother",1,2,0,0,0,0,0,1,1,1,1,"Neutral","Low","Low","Average",0,14,15,16,"Middle",0,1,1
+"MS","M",16,"Urban","LE3","T","teacher","health","other","father",1,1,0,0,1,0,0,1,1,1,0,"Good","Very Low","Low","Very Good",0,11,12,12,"Higher",1,1,0
+"MS","M",15,"Rural","GT3","T","other","services","course","mother",3,2,0,0,1,0,1,1,1,0,0,"Excellent","Very High","Very High","Very Good",11,9,11,10,"Primary",1,1,1
+"MS","M",15,"Urban","LE3","A","other","other","reputation","mother",3,4,0,0,1,0,1,1,1,0,0,"Excellent","High","Very High","Very Good",8,13,14,14,"Middle",1,1,1
+"MS","M",15,"Urban","LE3","A","services","services","course","mother",1,1,0,0,0,0,1,1,1,1,0,"Good","Medium","Medium","Very Good",11,12,13,12,"Middle",1,1,1
+"MS","F",16,"Rural","LE3","T","other","other","course","mother",1,3,0,0,1,0,0,0,1,0,1,"Good","Medium","Medium","Very Good",2,11,11,11,"Middle",1,1,1
+"MS","F",16,"Urban","LE3","T","other","other","home","mother",2,2,0,0,1,0,1,1,1,1,0,"Very Bad","Low","High","Very Bad",8,9,10,10,"Higher",1,1,0
+"MS","F",17,"Urban","GT3","T","at_home","other","home","mother",2,1,0,0,0,0,0,1,1,0,1,"Good","Medium","Medium","Very Bad",5,9,11,11,"Secondary",1,1,0
+"MS","F",17,"Rural","GT3","T","other","other","other","mother",2,2,0,1,0,1,0,1,1,0,0,"Excellent","Very Low","Medium","Very Good",0,11,9,11,"Middle",0,0,1
+"MS","F",16,"Urban","GT3","T","teacher","services","course","mother",2,3,0,0,1,0,0,1,1,1,1,"Excellent","Medium","Very High","Very Good",1,10,11,12,"Higher",1,1,0
+"MS","M",17,"Rural","GT3","T","health","other","course","father",3,1,3,0,0,0,1,1,1,1,1,"Neutral","Medium","Medium","Very Good",2,9,9,8,"Higher",1,1,0
+"MS","M",17,"Rural","LE3","T","other","other","course","father",2,1,0,0,0,0,1,1,1,0,1,"Excellent","Very Low","Low","Very Good",2,12,11,12,"Secondary",1,0,0
+"MS","M",17,"Urban","GT3","T","services","other","other","mother",1,2,1,0,1,0,1,0,1,1,1,"Excellent","High","High","Very Good",8,8,9,8,"Secondary",1,1,0
+"MS","F",17,"Urban","GT3","T","health","health","course","father",1,2,0,0,1,0,0,1,1,1,0,"Excellent","Low","Very High","Very Good",0,13,15,16,"Higher",0,1,0
+"MS","M",16,"Rural","LE3","T","other","at_home","other","father",1,1,0,0,0,0,0,1,1,1,0,"Good","Very Low","Low","Bad",0,10,11,11,"Primary",1,1,0
+"MS","F",17,"Urban","GT3","A","at_home","at_home","other","mother",1,2,0,0,0,0,1,1,1,1,1,"Good","Very High","Very High","Average",2,11,10,11,"Primary",1,0,1
+"MS","F",17,"Rural","GT3","T","other","other","course","mother",2,2,0,1,1,0,0,0,1,1,0,"Good","Medium","Medium","Very Good",0,17,18,18,"Higher",1,1,0
+"MS","M",16,"Urban","LE3","A","other","services","course","father",2,2,0,0,1,0,0,0,1,1,1,"Good","Very Low","Low","Very Good",0,12,13,13,"Middle",1,1,1
+"MS","M",17,"Urban","GT3","T","other","other","other","father",2,2,0,0,1,1,0,1,1,1,0,"Good","Very Low","Low","Very Bad",0,13,14,13,"Middle",1,1,0
+"MS","M",19,"Urban","GT3","T","other","other","other","mother",1,2,2,0,1,0,1,1,0,1,0,"Good","High","Medium","Good",2,9,9,10,"Primary",1,1,0
+"MS","M",17,"Urban","LE3","A","other","other","home","mother",1,1,0,0,0,0,0,1,1,0,1,"Good","Very Low","Low","Very Good",4,11,11,12,"Primary",0,1,1
+"MS","F",17,"Rural","GT3","T","at_home","at_home","course","father",2,1,0,0,1,0,1,1,0,1,1,"Neutral","Very High","Very High","Good",3,10,11,10,"Primary",1,1,0
+"MS","F",16,"Rural","GT3","T","other","other","home","father",1,3,0,1,1,0,0,0,1,1,1,"Good","Medium","High","Average",5,13,14,13,"Middle",0,1,1
+"MS","M",16,"Rural","LE3","T","other","at_home","course","mother",1,1,0,0,0,0,0,1,1,0,0,"Good","High","High","Very Good",4,9,10,11,"Primary",1,1,1
+"MS","F",17,"Rural","GT3","T","other","other","course","mother",2,2,3,0,1,0,1,0,1,1,1,"Excellent","High","High","Very Good",2,7,9,10,"Secondary",0,1,0
+"MS","M",17,"Rural","GT3","T","other","other","course","mother",2,1,0,0,0,0,1,1,0,0,1,"Excellent","Very High","Very High","Very Good",0,8,13,10,"Middle",1,1,0
+"MS","M",18,"Rural","GT3","T","at_home","at_home","course","other",3,1,1,1,1,0,0,1,1,0,0,"Good","Medium","Low","Good",0,12,12,13,"Primary",0,1,1
+"MS","M",17,"Rural","GT3","T","other","services","course","mother",2,1,0,0,1,0,1,0,1,1,1,"Good","Very High","Very High","Bad",0,10,9,10,"Primary",1,0,1
+"MS","M",18,"Urban","LE3","T","at_home","at_home","course","mother",2,2,0,0,1,0,1,1,1,0,0,"Good","Medium","Medium","Very Good",6,10,9,10,"Primary",1,0,1
+"MS","F",16,"Rural","LE3","T","other","services","course","father",1,2,0,0,0,0,1,1,1,0,1,"Excellent","High","Medium","Very Bad",0,11,13,12,"Middle",0,1,1
+"MS","M",17,"Urban","GT3","T","other","other","course","mother",1,1,1,0,0,0,1,1,1,0,1,"Very Bad","Low","Very Low","Very Good",0,7,0,0,"Middle",1,0,1
+"MS","M",16,"Rural","GT3","T","services","other","course","father",2,1,0,0,0,0,0,1,1,1,0,"Good","Very High","Very High","Very Good",2,11,9,10,"Middle",1,0,0
+"MS","M",16,"Rural","LE3","T","at_home","other","course","mother",2,1,0,0,0,0,1,1,1,1,0,"Good","Very High","Very High","Very Good",0,10,10,9,"Primary",1,1,1
+"MS","M",18,"Rural","GT3","T","services","other","course","other",2,1,1,0,1,0,0,1,0,1,1,"Excellent","Medium","Medium","Very Good",2,9,7,9,"Primary",1,0,0
+"MS","M",18,"Rural","GT3","T","services","other","course","mother",1,1,1,0,0,0,0,1,0,1,0,"Bad","Medium","Very Low","Very Good",0,4,0,0,"Secondary",1,0,0
+"MS","M",19,"Urban","GT3","T","at_home","services","course","mother",2,1,3,0,0,0,1,1,1,0,0,"Neutral","Low","Very Low","Average",4,6,11,9,"Secondary",0,1,0
+"MS","M",18,"Urban","GT3","T","at_home","at_home","course","mother",1,2,2,0,1,0,1,1,0,1,0,"Good","High","Very High","Average",9,4,8,8,"Secondary",1,1,0
+"MS","M",16,"Rural","GT3","T","services","services","course","mother",2,1,0,0,1,0,1,1,1,1,1,"Excellent","High","Medium","Good",6,7,8,8,"Middle",1,1,1
+"MS","M",19,"Urban","GT3","T","at_home","other","course","other",2,1,3,0,0,0,1,0,0,1,1,"Good","High","Medium","Very Good",4,8,9,9,"Middle",1,1,0
+"MS","F",16,"Urban","GT3","A","services","at_home","course","mother",2,2,2,0,1,0,1,1,1,0,1,"Bad","Very High","Very High","Very Bad",8,5,5,7,"Secondary",0,1,0
+"MS","F",17,"Urban","GT3","T","other","at_home","course","mother",1,1,0,0,1,0,1,1,1,0,0,"Good","Medium","Low","Very Good",9,7,9,10,"Primary",1,1,1
+"MS","M",20,"Rural","GT3","T","other","other","course","other",2,1,1,0,1,0,0,1,0,1,1,"Good","High","Medium","Good",12,8,11,10,"Primary",1,1,0
+"MS","F",18,"Rural","GT3","A","services","services","course","mother",1,1,0,0,1,0,0,1,1,1,0,"Excellent","High","High","Bad",8,10,11,10,"Higher",1,1,0
+"MS","M",18,"Rural","GT3","T","other","other","course","mother",2,1,0,0,1,0,0,0,1,1,0,"Bad","Very High","Very High","Very Good",8,9,10,11,"Secondary",1,1,0
+"MS","M",19,"Rural","GT3","T","other","services","home","other",3,2,1,0,0,0,0,1,1,1,0,"Excellent","High","High","Bad",8,10,9,11,"Primary",1,0,1
+"MS","M",17,"Urban","GT3","T","health","other","course","mother",2,2,1,0,1,0,0,1,1,1,0,"Good","Very High","High","Average",4,8,9,10,"Secondary",1,1,0
+"MS","M",18,"Urban","LE3","T","at_home","services","course","mother",1,1,0,0,0,0,0,1,0,1,1,"Good","Medium","Medium","Average",0,9,10,9,"Primary",1,1,0
+"MS","M",19,"Rural","GT3","T","other","other","home","other",3,1,1,0,1,0,0,1,1,1,0,"Good","High","High","Very Good",4,8,9,10,"Primary",1,1,1
+"MS","F",18,"Urban","GT3","A","at_home","other","course","mother",2,2,2,0,1,0,0,1,1,0,0,"Good","Medium","Medium","Very Good",2,6,8,8,"Primary",0,1,1
+"MS","F",19,"Urban","LE3","A","at_home","other","course","mother",1,1,0,0,1,0,0,1,0,0,0,"Very Bad","High","High","Very Good",0,6,8,7,"Primary",0,1,0
+"MS","F",18,"Rural","GT3","T","other","other","other","mother",2,1,1,0,0,0,0,1,0,1,1,"Excellent","Very High","Very High","Average",0,8,6,0,"Middle",0,0,0
+"MS","F",17,"Rural","GT3","T","at_home","other","course","mother",2,1,0,0,1,0,0,1,1,1,0,"Good","High","Medium","Very Good",0,10,11,11,"None",0,1,1
+"MS","F",17,"Rural","LE3","A","other","at_home","course","other",2,3,0,0,1,1,0,1,0,0,0,"Good","Low","Medium","Average",5,8,7,8,"Secondary",1,0,0
+"MS","F",17,"Urban","GT3","T","teacher","services","home","mother",1,2,0,1,1,0,1,1,1,1,0,"Excellent","Very High","Very High","Very Good",0,8,8,0,"Higher",1,1,0
+"MS","F",18,"Rural","LE3","T","services","services","course","mother",1,2,1,0,1,0,1,1,1,1,0,"Bad","Medium","Medium","Good",3,7,6,8,"Middle",1,0,1
+"MS","F",17,"Urban","GT3","T","health","at_home","course","mother",1,1,0,0,1,0,0,1,1,0,1,"Neutral","Low","Low","Very Good",0,8,10,9,"Higher",0,1,0
+"MS","F",17,"Urban","LE3","T","at_home","other","course","father",1,1,0,0,0,0,0,1,1,1,0,"Excellent","Very High","Very Low","Average",0,7,10,10,"Middle",0,1,1
+"MS","F",18,"Urban","GT3","T","other","other","course","mother",3,2,2,0,0,0,1,1,1,0,1,"Neutral","High","High","Very Good",3,7,8,7,"Primary",1,1,1
+"MS","F",18,"Urban","GT3","T","services","at_home","reputation","father",2,2,0,0,0,0,1,0,1,1,0,"Good","Medium","Very High","Very Bad",2,12,13,14,"Middle",0,1,1
+"MS","F",17,"Urban","GT3","T","services","services","course","mother",2,1,0,0,1,0,0,1,1,1,0,"Good","High","Medium","Good",0,11,12,13,"Secondary",0,1,0
+"MS","F",18,"Urban","LE3","A","at_home","other","reputation","mother",2,2,0,0,0,0,0,1,1,1,0,"Good","High","Medium","Good",0,12,13,14,"Primary",1,1,1
+"MS","F",18,"Urban","GT3","T","teacher","teacher","reputation","mother",2,2,0,0,0,0,1,0,1,1,0,"Good","Medium","Very High","Very Bad",0,18,18,18,"Higher",1,1,0
+"MS","M",18,"Urban","LE3","T","services","other","reputation","mother",1,1,0,0,1,0,1,1,1,1,0,"Excellent","High","Very High","Very Good",3,17,17,17,"Higher",0,1,0
+"MS","F",17,"Urban","GT3","T","other","other","course","mother",2,2,0,0,1,0,0,1,1,1,0,"Good","Medium","Medium","Good",0,17,18,18,"Higher",1,1,0
+"MS","F",18,"Rural","GT3","T","at_home","other","course","mother",3,2,1,0,0,0,1,1,1,0,1,"Good","Medium","Medium","Good",0,9,0,0,"Middle",0,0,1
+"MS","M",18,"Urban","LE3","T","at_home","services","home","mother",2,1,0,0,1,0,0,0,1,0,0,"Good","Very Low","High","Very Bad",8,10,11,11,"Primary",1,1,1
+"MS","M",18,"Rural","GT3","T","at_home","services","other","mother",3,1,0,0,1,1,1,1,1,1,1,"Bad","Very High","Very High","Very Bad",5,12,13,14,"Higher",0,1,0
+"MS","M",17,"Rural","GT3","T","other","services","other","father",3,1,0,0,0,0,0,0,0,0,0,"Good","Low","Medium","Good",4,12,13,14,"Primary",1,1,0
+"MS","F",18,"Urban","GT3","T","other","other","course","mother",2,2,0,0,1,0,0,0,1,1,1,"Very Bad","Medium","Very Low","Bad",4,8,8,10,"Middle",0,1,1
+"MS","F",18,"Urban","LE3","T","services","services","course","father",2,3,0,0,0,0,0,1,1,1,1,"Excellent","High","Very High","Average",0,11,12,13,"Middle",1,1,1
+"MS","F",18,"Rural","LE3","A","teacher","other","reputation","mother",1,2,0,0,0,0,1,1,1,1,1,"Excellent","Medium","Very Low","Very Good",0,5,0,0,"Higher",0,0,0
+"MS","F",18,"Urban","GT3","T","at_home","services","course","mother",3,2,1,0,0,0,0,1,0,0,0,"Good","High","Low","Bad",2,9,10,10,"Primary",1,1,0
+"MS","F",19,"Urban","GT3","T","at_home","services","other","father",2,1,1,0,0,0,0,1,0,0,0,"Excellent","Very High","Very High","Bad",0,5,0,0,"Primary",1,0,0
+"MS","F",17,"Urban","GT3","T","teacher","other","course","father",2,4,0,0,0,0,0,1,1,1,1,"Good","Low","Medium","Very Good",0,18,18,18,"Middle",1,1,0
+"MS","F",17,"Rural","LE3","A","services","other","reputation","mother",2,2,0,0,0,0,1,1,1,1,1,"Excellent","Medium","Medium","Bad",5,11,11,12,"Middle",1,1,1
+"MS","F",18,"Urban","LE3","A","at_home","services","course","mother",1,2,0,0,0,0,0,1,1,0,1,"Excellent","Low","Medium","Average",2,8,10,11,"Primary",1,1,1
+"MS","F",18,"Urban","GT3","T","at_home","at_home","course","father",2,2,0,0,1,0,0,1,0,0,0,"Good","Very Low","Very Low","Good",0,11,11,12,"Middle",0,1,0
+"MS","F",19,"Rural","GT3","A","at_home","at_home","course","other",2,2,3,0,1,0,1,1,0,0,1,"Neutral","Very High","High","Very Bad",0,8,0,0,"Primary",1,0,0
+"MS","F",18,"Rural","GT3","T","services","other","home","mother",2,3,0,0,0,0,0,1,1,1,1,"Good","Low","Very Low","Good",5,14,14,15,"Middle",0,1,1
+"MS","M",17,"Rural","GT3","T","services","other","home","mother",2,2,1,0,1,1,1,0,1,1,1,"Good","Very High","Very High","Bad",4,10,11,11,"Higher",1,1,0
+"MS","F",18,"Urban","GT3","T","services","services","course","father",1,2,0,0,1,0,0,1,1,0,1,"Excellent","Medium","High","Very Good",0,10,10,10,"Secondary",0,1,0
+"MS","F",17,"Rural","GT3","T","teacher","services","other","father",2,2,0,0,1,1,1,1,1,1,0,"Good","Medium","Medium","Very Good",2,12,12,12,"Higher",1,1,0
+"MS","F",17,"Urban","LE3","A","services","other","reputation","mother",2,2,0,0,0,0,0,1,1,0,1,"Very Bad","Low","Medium","Very Good",0,15,14,15,"Secondary",1,0,0
+"MS","M",18,"Urban","LE3","T","other","services","home","father",2,1,0,0,0,0,0,0,1,1,1,"Neutral","Medium","Low","Average",2,14,13,14,"Primary",1,0,1
+"MS","F",18,"Urban","LE3","T","at_home","services","course","father",2,3,0,0,0,0,0,1,1,1,0,"Excellent","Medium","Low","Good",0,19,17,18,"Primary",0,0,1
+"MS","F",18,"Rural","LE3","A","at_home","other","course","mother",3,2,0,0,0,0,0,1,1,0,1,"Good","Medium","High","Very Good",0,16,15,15,"Primary",1,0,1
+"MS","F",18,"Urban","GT3","T","services","services","other","mother",2,2,0,0,1,0,0,1,1,1,1,"Good","Medium","Low","Average",6,13,12,13,"Secondary",1,0,0
+"MS","F",17,"Urban","LE3","T","at_home","at_home","course","mother",1,2,0,0,1,0,1,1,1,1,1,"Bad","Medium","High","Very Bad",4,15,14,15,"Higher",0,0,0
+"MS","F",17,"Rural","GT3","T","other","services","course","father",2,2,0,0,0,0,0,0,1,0,0,"Neutral","Low","Low","Average",0,13,13,13,"Middle",1,1,1
+"MS","M",18,"Rural","GT3","T","at_home","other","course","mother",2,2,0,0,1,1,0,1,1,0,0,"Neutral","Medium","High","Average",0,8,10,9,"Primary",1,1,0
+"MS","M",18,"Urban","LE3","T","teacher","services","other","mother",2,3,0,0,0,0,0,1,1,1,1,"Good","Low","Low","Very Good",0,15,16,16,"Higher",1,1,0
+"MS","F",17,"Rural","GT3","T","other","services","reputation","mother",3,1,1,0,1,0,0,1,1,1,1,"Excellent","Low","Very Low","Very Bad",0,8,8,9,"Primary",1,1,1
+"MS","F",18,"Urban","GT3","T","at_home","services","course","father",2,1,0,0,1,0,0,1,1,1,1,"Excellent","Low","Medium","Good",0,10,10,10,"Secondary",1,1,0
+"MS","F",18,"Rural","GT3","T","other","teacher","other","father",3,2,0,0,1,0,0,0,1,1,1,"Neutral","Low","Low","Very Good",0,7,5,0,"Higher",1,0,0
+"MS","M",18,"Rural","LE3","T","at_home","services","other","father",3,1,0,0,1,0,1,1,0,1,1,"Good","Medium","Medium","Average",3,9,10,10,"Middle",1,1,0
+"MS","F",17,"Urban","GT3","T","other","at_home","home","mother",1,3,0,0,0,0,1,1,1,0,1,"Neutral","High","Medium","Average",8,10,11,12,"Middle",0,1,1
+"MS","F",17,"Rural","GT3","T","other","other","course","mother",1,1,0,0,0,0,1,1,1,1,0,"Neutral","Very High","Very High","Very Bad",4,7,8,9,"Primary",1,1,1
+"MS","F",18,"Rural","LE3","T","other","other","reputation","mother",2,3,0,0,0,0,0,1,1,1,0,"Excellent","High","High","Very Bad",0,15,17,17,"Higher",0,1,0
+"MS","F",18,"Rural","GT3","T","other","other","home","mother",4,3,0,0,0,0,0,1,1,1,0,"Good","Medium","Low","Good",4,10,11,12,"Primary",1,1,1
+"MS","F",19,"Rural","GT3","T","at_home","other","course","other",2,2,1,0,1,0,0,1,1,1,1,"Good","Medium","Medium","Average",4,7,8,9,"Primary",0,1,1
+"MS","F",18,"Rural","LE3","T","teacher","services","course","mother",1,2,0,0,0,0,1,1,1,1,0,"Excellent","High","Medium","Bad",1,13,14,14,"Higher",1,1,0
+"MS","F",18,"Urban","GT3","T","other","other","home","mother",1,2,0,0,0,0,0,1,1,1,1,"Good","Very Low","Medium","Very Bad",1,16,16,16,"Secondary",1,1,0
+"MS","F",17,"Rural","GT3","T","at_home","other","reputation","mother",1,2,0,0,1,0,1,0,1,1,0,"Good","Very High","High","Very Bad",10,8,9,9,"Secondary",1,1,0
+"MS","M",18,"Urban","GT3","T","teacher","teacher","home","father",1,2,0,0,0,0,1,0,1,1,0,"Neutral","Low","High","Bad",4,17,18,19,"Higher",1,1,0
+"MS","M",18,"Rural","GT3","T","other","other","other","mother",2,1,0,0,0,0,1,0,1,1,1,"Good","High","Medium","Very Good",0,7,7,0,"Middle",1,1,1
+"MS","M",17,"Urban","GT3","T","other","services","home","father",2,2,0,0,0,0,1,1,1,1,0,"Good","High","Medium","Average",4,14,15,16,"Secondary",0,1,0
+"MS","M",19,"Rural","GT3","T","other","services","other","mother",2,1,1,0,0,0,0,1,1,0,0,"Good","Medium","Low","Very Good",0,5,8,0,"Primary",1,1,1
+"MS","M",18,"Rural","GT3","T","other","other","home","father",2,1,1,0,0,1,0,1,1,0,0,"Excellent","High","Medium","Average",0,7,7,0,"Middle",1,1,0
+"MS","F",18,"Rural","GT3","T","at_home","other","other","mother",2,3,0,0,0,0,0,1,1,0,0,"Excellent","Medium","Medium","Good",0,14,17,15,"Middle",1,1,1
+"MS","F",17,"Urban","GT3","T","teacher","other","other","mother",2,2,0,0,0,0,0,1,1,1,0,"Excellent","Very High","High","Very Bad",0,6,9,11,"Higher",0,1,0
+"MS","F",18,"Rural","GT3","T","teacher","at_home","reputation","mother",3,1,0,0,1,0,1,1,1,1,1,"Good","High","Medium","Very Good",4,7,9,10,"Higher",1,1,0
+"MS","F",19,"Rural","GT3","T","services","other","course","mother",1,3,1,0,0,0,1,0,1,1,0,"Excellent","High","Low","Very Good",4,10,11,10,"Middle",1,1,0
+"MS","F",18,"Urban","LE3","T","teacher","services","course","mother",1,2,0,0,1,0,0,1,1,1,0,"Good","Medium","High","Very Bad",4,15,15,16,"Secondary",0,1,0
+"MS","F",18,"Urban","GT3","T","other","other","course","mother",2,2,0,0,0,0,1,1,1,0,0,"Very Bad","Very Low","Very Low","Very Good",6,11,12,9,"Primary",0,1,1
+"MS","M",17,"Urban","LE3","T","services","services","course","mother",2,1,0,0,0,0,0,0,1,1,0,"Bad","High","Very High","Bad",6,10,10,10,"Secondary",1,1,0
+"MS","M",18,"Rural","LE3","T","services","other","course","mother",3,1,0,0,0,0,0,0,1,1,0,"Good","High","Very Low","Very Good",4,10,11,11,"Secondary",1,1,0
