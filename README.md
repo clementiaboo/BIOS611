@@ -37,7 +37,9 @@ Run
 This will start rstudio, visit localhost:8787 in your browser. Login using username = rstudio password = pw
 
 ## Report
-To build the final report: 
+To build the final report: run
 
 `make report.pdf`
+
+In the rstudio terminal.
  
