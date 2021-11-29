@@ -4,7 +4,7 @@ clean:
 	rm -rf derived_data
 	rm -rf figures
 
-derviated_data/studalc.csv: studalc.csv prepare_data.R
+derived_data/studalc.csv: studalc.csv prepare_data.R
 	mkdir -p derived_data
 	Rscript prepare_data.R
 
