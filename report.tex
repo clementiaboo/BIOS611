@@ -1,0 +1,214 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={test report},
+  pdfauthor={Clement Li},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifluatex
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+
+\title{test report}
+\author{Clement Li}
+\date{11/29/2021}
+
+\begin{document}
+\maketitle
+
+\hypertarget{introduction}{%
+\subsubsection{Introduction}\label{introduction}}
+
+Grades and test scores---these are, in nearly all contemporary academic
+settings, the sole representations of student success. The focus of my
+analysis is to delve into the many relationships between student
+information and school performance and extract those characteristics
+that seem to have the greatest impact on a student's performance in
+school.
+
+\hypertarget{data}{%
+\subsubsection{Data}\label{data}}
+
+This dataset is a sample of high school students obtained through a
+survey of students taking Math and Portuguese language courses at two
+high schools in Portugal. Each observation represents the survey
+response of a single student; the variables gathered from the survey
+contain a wide breadth of information about the students and their
+families --- in total, there are 33 variables.
+
+I split the variables into four categories: response, behavioral,
+background, and educational. The response variables are G4 and G3. G4 is
+a binary variable we created based on the given variables G1 and G2,
+which are the grades for the first and second term; G4 is 1 if G2 is
+greater than or equal to G1 (indicating improvement from the first term
+grade) and 0 otherwise. G3 is a numeric variable representing the final
+grade of a student, given in points out of 20. G1 and G2, mentioned
+earlier, use the same units as G3.
+
+The behavioral variables are Alc, goout, freetime, romantic, activities,
+and health. Alc, defined as 1 if the student drinks and 0 if the student
+does not drink, is a binary variable we created using two other
+variables, Walc and Dalc (weekend and weekday alcohol consumption). The
+factor variable goout describes the amount of time a student spends
+going out with friends (``Very Low'' to ``Very High''). Freetime
+represents the amount of free time a student has after school (also
+``Very Low'' to ``Very High''). Romantic is a binary variable indicating
+whether a student is in a romantic relationship (1) or not (0).
+Similarly, activities is a binary variable that is 1 if a student
+participates in extracurricular activities. Finally, health is a factor
+variable with 5 levels that describes the overall health status of a
+student (``Very Bad'' to ``Very Good'').
+
+The background variables are sex, address, Mjob, Pjob, nursery, Gedu,
+famsize, internet, and traveltime. Sex is a binary variable with value
+``F'' for female and ``M'' for male. Address is also a binary variable
+indicating whether a student lives in an ``Urban'' or ``Rural'' area.
+Mjob and Fjob are factor variables representing the occupation of a
+student's mother and father, respectively (``teacher,'' ``health''
+related, civil ``services,'' ``at\_home,'' and ``other''). Nursery is a
+binary variable that is 1 if the student attended nursery school as a
+child and 0 otherwise. Internet represents whether a student does (1) or
+does not (0) have home Internet access. Gedu is a categorical metric we
+created based on three other variables, guardian, Medu, and Fedu, that
+denotes the highest completed education level of a student's guardian
+(``Minimal'' education, ``Middle'' school, ``Secondary'' school, and
+``Higher'' education). Traveltime is a numeric variable representing the
+time, in hours, a student spends going from home to school.
+
+The educational variables are schoolsup, famsup, paid, absences,
+studytime, failures, firstgen, and reason. Schoolsup and famsup are
+binary variables indicating whether a student receives school and family
+educational support, respectively. Paid is another binary variable that
+reveals whether a student takes paid classes outside of school. Absences
+is a discrete numeric variable denoting the number of school absences.
+Failures is also a discrete numeric variable counting the number of past
+class failures. Reason describes the reason why a student chose to
+attend their high school: proximity to ``home,'' school ``reputation,''
+``course'' preference, and ``other.'' Firstgen is a binary variable we
+made using Medu, Fedu, and higher (a variable representing whether a
+student wants to pursue higher education); firstgen indicates whether a
+student is an aspiring first-generation college student, defined as a
+student who wants to go to college (based on higher) and whose parents
+both never completed secondary school. We do not have enough information
+to confirm whether these students match the traditional definition of
+first-generation but named the variable firstgen merely out of
+convenience.
+
+\begin{figure}
+\centering
+\includegraphics{./figures/f1.png}
+\caption{caption}
+\end{figure}
+
+My final project seeks to answer the question: ``which educational
+variables act as the best predictors for a student's final grade?'' I
+trained several different regression models, each using a different
+subset of variables and their two-way interactions. The models were
+first trained on the same 549 observation training set and compared on
+the basis of their performances on the 100 observation test set.
+
+The first model I tested is the most basic linear model that simply uses
+each predictor in the regression; this model was named ``full.'' From
+this model, I applied two different variable selection methods: backward
+selection and best subsets. For the simple multiple regression model,
+both backward selection and best subsets resulted in the same model that
+we called ``Best,'' which uses schoolsup, studytime, failures, reason,
+firstgen as predictors.
+
+In addition, I accounted for two-way interactions and built models using
+a similar variable selection process. I first created Full2, which
+considers all predictors as well as all the two-way interaction terms.
+Then, I used backward selection and the best subsets methods; in this
+case, these resulted in two different models, which are labeled as
+``Back2'' and ``Best2.''
+
+I also trained lasso and ridge regression models using all the
+educational variables and their two-way interactions and chose the
+optimal lasso and ridge penalty parameters with 10-fold
+cross-validation.
+
+\begin{figure}
+\centering
+\includegraphics{./figures/figure2.png}
+\caption{caption}
+\end{figure}
+
+Once all the models were trained, I evaluated their performances on the
+test set using RMSE (root-mean-square error). Lasso and Best2 had the
+two lowest RMSE values, and their test performances were quite similar.
+The lasso regression model uses just 2 predictors: studytime and
+failures. Best2 uses several more predictors: studytime, failures,
+reason, studytime:schoolsup, failures:schoolsup, reason:famsup,
+studytime:reason, failures:absences.
+
+Though the Best2 model uses over triple the amount of predictors, the
+lasso regression model gives a very similar test performance, which
+leads us to suspect that those other variables are more ``noise'' than
+``signal.''
+
+In conclusion, the two variables most predictive of G3 (final grade) are
+studytime and failures (number of previous classes failed). The plots
+below demonstrate the strength of the relationship between studytime and
+G3 as well as failures and G3.
+
+\begin{figure}
+\centering
+\includegraphics{./figures/figure3.png}
+\caption{caption}
+\end{figure}
+
+\end{document}
