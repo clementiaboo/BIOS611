@@ -1,72 +1,31 @@
 ---
-title: 'BIOS 611 HW #10'
+title: "test report"
 author: "Clement Li"
-date: "10/28/2021"
-output:
-  html_document: default
-  pdf_document: default
+date: "11/29/2021"
+output: html_document
 ---
-```{r}
-library(tidyverse)
-library(shiny)
-library(ggplot2)
-library(dplyr)
-library(glmnet)
-library(kableExtra)
-library(leaps)
-library(gridExtra)
-```
-
-### This dataset was originally collected by researchers at the University of Minho in Braga, Portugal; Paulo Cortez and Alice Silva of the University of Minho analyzed this specific data in an academic paper titled “Using Data Mining to Predict Secondary School Student Performance” published through EUROSIS [ISBN 978-9077381-39-7]. The data is a sample of high school students obtained through a survey of students taking Math and Portuguese language courses at two high schools in Portugal: Gabriel Pereira and Mousinho da Silveira. Each observation represents the survey response of a single student. There are 33 variables. To avoid issues like duplicate students and differences in grades due to overall course difficulty (Math vs Portuguese), this analysis will only focus on the data containing survey responses of students in the Portuguese language class. The Portuguese language class dataset is composed of 649 unique student survey responses. https://www.kaggle.com/uciml/student-alcohol-consumption
+### Introduction
+Grades and test scores—these are, in nearly all contemporary academic settings, the sole representations of student success. The focus of my analysis is to delve into the many relationships between student information and school performance and extract those characteristics that seem to have the greatest impact on a student’s performance in school.
 
 
-```{r}
-studalc <- read.csv("https://raw.githubusercontent.com/clementiaboo/bios-611-project/main/studalc.csv") %>%
-  mutate(Gedu = factor(Gedu, 
-    levels = c("None", "Primary", "Middle", "Secondary", "Higher"),
-    labels = c("Minimal", "Minimal", "Middle", 
-               "Secondary", "Higher")), 
-    freetime = factor(freetime, c("Very Low", "Low", "Medium", "High", "Very High")), 
-    famrel = factor(famrel, c("Very Bad", "Bad", "Neutral", "Good", "Excellent")), 
-    G4 = as.factor(G4))
+### Data
 
-set.seed(1)
-test = sample(1:nrow(studalc), 100)
+This dataset is a sample of high school students obtained through a survey of students taking Math and Portuguese language courses at two high schools in Portugal.  Each observation represents the survey response of a single student; the variables gathered from the survey contain a wide breadth of information about the students and their families — in total, there are 33 variables.
 
-```
+I split the variables into four categories: response, behavioral, background, and educational. The response variables are G4 and G3. G4 is a binary variable we created based on the given variables G1 and G2, which are the grades for the first and second term; G4 is 1 if G2 is greater than or equal to G1 (indicating improvement from the first term grade) and 0 otherwise. G3 is a numeric variable representing the final grade of a student, given in points out of 20. G1 and G2, mentioned earlier, use the same units as G3.
+
+The behavioral variables are Alc, goout, freetime, romantic, activities, and health. Alc, defined as 1 if the student drinks and 0 if the student does not drink, is a binary variable we created using two other variables, Walc and Dalc (weekend and weekday alcohol consumption). The factor variable goout describes the amount of time a student spends going out with friends (“Very Low” to “Very High”). Freetime represents the amount of free time a student has after school (also “Very Low” to “Very High”). Romantic is a binary variable indicating whether a student is in a romantic relationship (1) or not (0). Similarly, activities is a binary variable that is 1 if a student participates in extracurricular activities. Finally, health is a factor variable with 5 levels that describes the overall health status of a student (“Very Bad” to “Very Good”).
+
+The background variables are sex, address, Mjob, Pjob, nursery, Gedu, famsize, internet, and traveltime. Sex is a binary variable with value “F” for female and “M” for male. Address is also a binary variable indicating whether a student lives in an “Urban” or “Rural” area. Mjob and Fjob are factor variables representing the occupation of a student’s mother and father, respectively (“teacher,” “health” related, civil “services,” “at_home,” and “other”). Nursery is a binary variable that is 1 if the student attended nursery school as a child and 0 otherwise. Internet represents whether a student does (1) or does not (0) have home Internet access. Gedu is a categorical metric we created based on three other variables, guardian, Medu, and Fedu, that denotes the highest completed education level of a student’s guardian (“Minimal” education, “Middle” school, “Secondary” school, and “Higher” education). Traveltime is a numeric variable representing the time, in hours, a student spends going from home to school.
+
+The educational variables are schoolsup, famsup, paid, absences, studytime, failures, firstgen, and reason. Schoolsup and famsup are binary variables indicating whether a student receives school and family educational support, respectively. Paid is another binary variable that reveals whether a student takes paid classes outside of school. Absences is a discrete numeric variable denoting the number of school absences. Failures is also a discrete numeric variable counting the number of past class failures. Reason describes the reason why a student chose to attend their high school: proximity to “home,” school “reputation,” “course” preference, and “other.” Firstgen is a binary variable we made using Medu, Fedu, and higher (a variable representing whether a student wants to pursue higher education); firstgen indicates whether a student is an aspiring first-generation college student, defined as a student who wants to go to college (based on higher) and whose parents both never completed secondary school. We do not have enough information to confirm whether these students match the traditional definition of first-generation but named the variable firstgen merely out of convenience.
 
 
-### I split the variables into four categories: response, behavioral, background, and educational. The response variables are G4 and G3. G4 is a binary variable we created based on the given variables G1 and G2, which are the grades for the first and second term; G4 is 1 if G2 is greater than or equal to G1 (indicating improvement from the first term grade) and 0 otherwise. G3 is a numeric variable representing the final grade of a student, given in points out of 20. G1 and G2, mentioned earlier, use the same units as G3.
-
-```{r}
-studalc %>%
-  mutate(G4 = ifelse(G4 == 1, "Increased", "Decreased")) 
-
-ggplot(data=studalc, aes(x = G1, y = G2, colour = G4)) + 
-  geom_point(position = position_jitter(.3, .3)) + 
-  geom_abline(aes(slope = 1, intercept = 0), linetype = "dashed", 
-              colour = "grey", size = 2) + 
-  ylim(-1, 20) + xlim(-1, 20)
-```
-
-```{r}
-ui <- fluidPage(
-  plotOutput("plot", brush = "plot_brush"),
-  tableOutput("data")
-)
-server <- function(input, output, session) {
-  output$plot <- renderPlot({
-    ggplot(mtcars, aes(wt, mpg)) + geom_point()
-  }, res = 96)
-  
-  output$data <- renderTable({
-    brushedPoints(mtcars, input$plot_brush)
-  })
-}
-```
+![caption](./figures/f1.png)
 
 
-My final project addresses the question: “which educational variables act as the best predictors for a student’s final grade?” I trained several different regression models, each using a different subset of variables and their two-way interactions. The models were first trained on the same 549 observation training set and compared on the basis of their performances on the 100 observation test set.
+
+My final project seeks to answer the question: “which educational variables act as the best predictors for a student’s final grade?” I trained several different regression models, each using a different subset of variables and their two-way interactions. The models were first trained on the same 549 observation training set and compared on the basis of their performances on the 100 observation test set.
 
 
 The first model I tested is the most basic linear model that simply uses each predictor in the regression; this model was named “full.” From this model, I applied two different variable selection methods: backward selection and best subsets. For the simple multiple regression model, both backward selection and best subsets resulted in the same model that we called “Best,” which uses schoolsup, studytime, failures, reason, firstgen as predictors. 
@@ -76,100 +35,14 @@ In addition, I accounted for two-way interactions and built models using a simil
 
 I also trained lasso and ridge regression models using all the educational variables and their two-way interactions and chose the optimal lasso and ridge penalty parameters with 10-fold cross-validation.
 
-```{r}
-ShowSubsets=function(regout){
-  z=summary(regout)
-  q=as.data.frame(z$outmat)
-  q$Rsq=round(z$rsq*100,2)
-  q$adjRsq=round(z$adjr2*100,2)
-  q$Cp=round(z$cp,2)
-  return(q)
-}
-
-
-
-all = regsubsets(G3~schoolsup+famsup+paid+absences+studytime+failures+reason+firstgen, data=studalc[-test,], method="exhaustive")
-
-best.lm = lm(G3~schoolsup+studytime+failures+reason+firstgen, 
-             data = studalc[-test,])
-
-full = lm(G3~schoolsup+famsup+paid+absences+studytime+
-            failures+reason+firstgen, 
-          data = studalc[-test,])
-
-all2 = regsubsets(G3~(schoolsup+famsup+paid+absences+studytime+failures+reason+firstgen)^2, data = studalc, method = "forward")
-
-best.lm2 = lm(G3~(studytime+failures+reason+schoolsup:studytime+schoolsup:failures+famsup:reason+absences:failures+studytime:reason), data = studalc[-test,])
-
-full2 = lm(G3~(schoolsup+famsup+paid+absences+studytime+failures+reason+firstgen)^2, data=studalc[-test,])
-
-best.step2 = step(full2, scale=(summary(full2)$sigma)^2, trace = FALSE, direction = "backward")
-
-edu = model.matrix(~(schoolsup + famsup + paid + absences + studytime + failures + reason + firstgen)^2 - 1, studalc[-test,])
-
-edu.test = model.matrix(~(schoolsup + famsup + paid + absences + studytime + failures + reason + firstgen)^2 - 1, studalc[test,])
-
-G3 = model.matrix(~G3 - 1, studalc[-test,])
-
-
-#use 10-fold CV to find best lambda for ridge and lasso
-set.seed(5)
-lasso = cv.glmnet(x = edu, y = G3, alpha = 1, nfolds = 10)
-
-ridge = cv.glmnet(x = edu, y = G3, alpha = 0, nfolds = 10)
-
-#get test RMSE for each model
-G3.errors = numeric(7)
-G3.errors[1] = sqrt(mean(studalc[test,"G3"] - 
-                        predict(full, studalc[test,]))^2)
-G3.errors[2] = sqrt(mean(studalc[test,"G3"] - 
-                        predict(best.lm, studalc[test,]))^2)
-G3.errors[3] = sqrt(mean(studalc[test,"G3"] - 
-                        predict(full2, studalc[test,]))^2)
-G3.errors[4] = sqrt(mean(studalc[test,"G3"] - 
-                        predict(best.lm2, studalc[test,]))^2)
-G3.errors[5] = sqrt(mean(studalc[test,"G3"] - 
-                        predict(best.step2, studalc[test,]))^2)
-G3.errors[6] = sqrt(mean(studalc[test,"G3"] - 
-                        predict(lasso, edu.test))^2)
-G3.errors[7] = sqrt(mean(studalc[test,"G3"] - 
-                        predict(ridge, edu.test))^2)
-
-q2.models = c("Full", "Best",
-              "Full2", "Best2", "Back2", "Lasso", 
-              "Ridge")
-
-fills=c("Full","Best Subsets","Full","Best Subsets","Backward","Lasso","Ridge")
-
-q2.errors = data.frame(model = q2.models, RMSE = G3.errors, fills) %>%
-  mutate(model = factor(model, levels = c("Full2", "Full",
-              "Back2", "Best", "Ridge", "Lasso", 
-              "Best2")))
-
-ggplot(q2.errors) + geom_col(aes(x = model, y = RMSE,fill=fills)) +
-  scale_fill_discrete(name = "Model Technique", labels = c("Backward","Best Subsets","Full","Lasso","Ridge"))+
-  xlab("Models") + ylab("Test RMSE") +coord_flip() + ggtitle("Model Comparisons by RMSE")
-```
+![caption](./figures/figure2.png)
 
 Once all the models were trained, I evaluated their performances on the test set using RMSE (root-mean-square error). Lasso and Best2 had the two lowest RMSE values, and their test performances were quite similar. The lasso regression model uses just 2 predictors: studytime and failures. Best2 uses several more predictors: studytime, failures, reason, studytime:schoolsup, failures:schoolsup, reason:famsup, studytime:reason, failures:absences. 
 
 Though the Best2 model uses over triple the amount of predictors, the lasso regression model gives a very similar test performance, which leads us to suspect that those other variables are more “noise” than “signal.” 
 
-In conclusion, the two variables most predictive of G3 (final grade) are studytime and failures. The plots below demonstrate the strength of the relationship between studytime and G3 as well as failures (number of previous classes failed) and G3.
+In conclusion, the two variables most predictive of G3 (final grade) are studytime and failures (number of previous classes failed). The plots below demonstrate the strength of the relationship between studytime and G3 as well as failures and G3.
 
-```{r}
-g1 = ggplot(studalc) + 
-  geom_point(aes(x = studytime, y = G3, colour = G3), 
-             position = position_jitter(0.25, 0.25)) + 
-  scale_color_gradient(low="blue", high="orange") + 
-  theme(legend.position = "none")
+![caption](./figures/figure3.png)
 
-g2 = ggplot(studalc) + 
-  geom_point(aes(x = failures, y = G3, colour = G3), 
-             position = position_jitter(0.25, 0.25)) + 
-  scale_color_gradient(low="blue", high="orange") + ylab("") + 
-  theme(legend.position = "none")
-
-grid.arrange(g1, g2, ncol = 2)
-```
 
