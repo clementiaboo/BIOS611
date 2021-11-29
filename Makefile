@@ -21,4 +21,4 @@ figures/figure3.png: derived_data/studalc.csv
 	Rscript figure3.R
 
 report.pdf: report.Rmd figures/figure1.png figures/figure2.png figures/figure3.png
-	R -e "rmarkdown::render(\"report.Rmd\");"
+	R -r "rmarkdown::render(\"report.Rmd\", output_format=\"pdf_document\")"
