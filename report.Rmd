@@ -21,7 +21,7 @@ The background variables are sex, address, Mjob, Pjob, nursery, Gedu, famsize, i
 The educational variables are schoolsup, famsup, paid, absences, studytime, failures, firstgen, and reason. Schoolsup and famsup are binary variables indicating whether a student receives school and family educational support, respectively. Paid is another binary variable that reveals whether a student takes paid classes outside of school. Absences is a discrete numeric variable denoting the number of school absences. Failures is also a discrete numeric variable counting the number of past class failures. Reason describes the reason why a student chose to attend their high school: proximity to “home,” school “reputation,” “course” preference, and “other.” Firstgen is a binary variable we made using Medu, Fedu, and higher (a variable representing whether a student wants to pursue higher education); firstgen indicates whether a student is an aspiring first-generation college student, defined as a student who wants to go to college (based on higher) and whose parents both never completed secondary school. We do not have enough information to confirm whether these students match the traditional definition of first-generation but named the variable firstgen merely out of convenience.
 
 
-![caption](./figures/f1.png)
+![caption](./figures/figure1.png)
 
 
 
