@@ -1,9 +1,5 @@
 #### make sure Docker is runnning
-
-FROM cmd
-RUN docker run -d --name=rstudio --rm -p 8787:8787 -e PASSWORD=password rocker/rstudio 
-#### search `localhost:8787` in browser
-#### login using username = "rstudio", password = "password"
+FROM rocker/verse #
 
 FROM rstudio
 RUN R -e "install.packages(c(\"shiny\",\"plotly\"))";
