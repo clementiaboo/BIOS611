@@ -10,7 +10,7 @@ This dataset was originally collected by researchers at the University of Minho 
 You will need to have Docker installed. 
 
 `docker build . -t 611`
-`docker run -v ${pwd}:/home/rstudio/project -p 8787:8787 -e PASSWORD=pw`-t 611
+`docker run -v ${pwd}:/home/rstudio/project -p 8787:8787 -e PASSWORD=pw -t 611`
 
 Use a good password, not pw. 
 
